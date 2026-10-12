@@ -2,9 +2,9 @@
 
 on:
   push:
-    branches: [ "master", "main" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master", "main" ]
+    branches: [ "main" ]
 
 jobs:
   build:
@@ -24,7 +24,5 @@ jobs:
         pip install -r requirements.txt
         
     - name: Lint with ruff
-      run: ruff check .
-      
-    - name: Run FinOps Analysis & Generate Reference
-      run: python analyse_consommation_cloud.py
+      run: |
+        ruff check .
