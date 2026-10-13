@@ -1,32 +1,31 @@
-﻿name: FinOps CD
+﻿New-Item -Path .github\workflows\ci.yml -ItemType File -Value @"
+name: FinOps CI
 
 on:
+  pull_request:
+    branches: [ main ]
   push:
-    tags:
-      - 'v*'
-jobs:
-  release:
-    runs-on: ubuntu-latest
-    environment: production
-    permissions:
-      contents: write
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+    branches: [ main ]
 
-      - name: Set up Python 3.11
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
-
-      - name: Create Release Archive
+          python-version: '3.11'
+      - name: Install dependencies
         run: |
-          mkdir -p dist
-          zip -r dist/finops-projet.zip app.py analyse_consommation_cloud.py monitoring_zombies.py requirements.txt pyproject.toml
+          python -m pip install --upgrade pip
+          pip install ruff pytest
+      - name: Run linter
+        run: ruff check .
+      - name: Run tests
+        run: pytest
+"@ -Force
 
-      - name: Create GitHub Release
-        uses: softprops/action-gh-release@v1
-        with:
-          files: dist/finops-projet.zip
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+git add .
+git commit -m "ci: ajouter le workflow CI avec job test"
+git push origin test-ci
