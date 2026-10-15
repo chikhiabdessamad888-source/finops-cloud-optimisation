@@ -1,5 +1,4 @@
-﻿New-Item -Path .github\workflows\ci.yml -ItemType File -Value @"
-name: FinOps CI
+﻿name: FinOps CI
 
 on:
   pull_request:
@@ -8,24 +7,28 @@ on:
     branches: [ main ]
 
 jobs:
-  test:
+  detection-zombies:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Set up Python
+        contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install ruff pytest
-      - name: Run linter
-        run: ruff check .
-      - name: Run tests
-        run: pytest
-"@ -Force
+          python-version: "3.11"
 
-git add .
-git commit -m "ci: ajouter le workflow CI avec job test"
-git push origin test-ci
+      - name: Create Release Archive
+        run: |
+          mkdir -p dist
+          zip -r dist/finops-projet.zip app.py analyse_consommation_cloud.py monitoring_zombies.py requirements.txt pyproject.toml
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: dist/finops-projet.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
