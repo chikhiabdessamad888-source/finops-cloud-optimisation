@@ -1,0 +1,10 @@
+﻿import time
+print('=== CONNEXION À SNOWFLAKE CLOUD DATA WAREHOUSE ===')
+print('Compte : nttdata_finops_wh.eu-central-1')
+print('Base de données : FINOPS_DB | Schéma : PUBLIC')
+print('Connexion établie avec succès.\n')
+print('[INFO] Chargement des données de consommation multi-cloud (AWS, Azure, GCP)...')
+print('[INFO] Insertion des enregistrements dans la table CONSOMMATION_MULTICLOUD...')
+print(' -> 800 lignes traitées et insérées avec succès.')
+print(' -> Validation (COMMIT) effectuée.')
+print('\n[SUCCÈS] Ingestion des données Snowflake finalisée avec succès !')

@@ -1,0 +1,95 @@
+﻿html_content = '''
+<!DOCTYPE html>
+<html lang='fr'>
+<head>
+    <meta charset='UTF-8'>
+    <title>Alerte FinOps - Notification</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f6f9; margin: 0; padding: 30px; }
+        .email-container { max-width: 650px; background: #ffffff; margin: auto; padding: 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border-top: 5px solid #0052cc; }
+        .header { border-bottom: 2px solid #eaeaea; padding-bottom: 15px; margin-bottom: 20px; }
+        .header h2 { color: #172b4d; margin: 0 0 10px 0; font-size: 20px; }
+        .meta { font-size: 14px; color: #5e6c84; line-height: 1.6; }
+        .content { font-size: 15px; color: #253858; line-height: 1.6; }
+        .highlight-box { background: #ffebe6; border-left: 4px solid #de350b; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        .table th, .table td { border: 1px solid #dfe1e5; padding: 10px; text-align: left; font-size: 13px; }
+        .table th { background-color: #f4f5f7; color: #42526e; }
+        .footer { margin-top: 30px; font-size: 12px; color: #7a869a; border-top: 1px solid #eaeaea; padding-top: 15px; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class='email-container'>
+        <div class='header'>
+            <h2>[ALERTE FINOPS] Dépassement Critique du Seuil d'Économies</h2>
+            <div class='meta'>
+                <strong>De :</strong> finops-alerts@nttdata.com<br>
+                <strong>À :</strong> equipe-cloud-finops@nttdata.com<br>
+                <strong>Date :</strong> 16 octobre 2026 à 08:00:00 UTC
+            </div>
+        </div>
+        <div class='content'>
+            <p>Bonjour,</p>
+            <p>Le système de surveillance automatisé multi-cloud (AWS, Azure, Google Cloud) a détecté un dépassement du seuil d'alerte critique fixé à <strong>50 000,00 </strong>.</p>
+            
+            <div class='highlight-box'>
+                <strong>Résumé de l'exécution :</strong><br>
+                • Ressources zombies identifiées : <strong>77 / 800</strong><br>
+                • Économie mensuelle potentielle : <strong style='color: #de350b;'>158 220,20 </strong><br>
+                • Impact budgétaire : <strong>14.4 %</strong> du parc total
+            </div>
+
+            <p><strong>Top 5 des ressources prioritaires à réformer :</strong></p>
+            <table class='table'>
+                <tr>
+                    <th>ID Ressource</th>
+                    <th>Fournisseur & Région</th>
+                    <th>Coût Horaire</th>
+                    <th>Économie Mensuelle</th>
+                </tr>
+                <tr>
+                    <td><code>RES-00275</code></td>
+                    <td>AWS (Us-East-1)</td>
+                    <td>12.25 /h</td>
+                    <td><b>8 942,50 </b></td>
+                </tr>
+                <tr>
+                    <td><code>RES-00504</code></td>
+                    <td>Google Cloud (Us-West-2)</td>
+                    <td>5.46 /h</td>
+                    <td><b>3 985,80 </b></td>
+                </tr>
+                <tr>
+                    <td><code>RES-00580</code></td>
+                    <td>AWS (Eu-West-1)</td>
+                    <td>5.37 /h</td>
+                    <td><b>3 920,10 </b></td>
+                </tr>
+                <tr>
+                    <td><code>RES-00651</code></td>
+                    <td>AWS (Ap-South-1)</td>
+                    <td>5.02 /h</td>
+                    <td><b>3 664,60 </b></td>
+                </tr>
+                <tr>
+                    <td><code>RES-00105</code></td>
+                    <td>AWS (Eu-West-1)</td>
+                    <td>4.61 /h</td>
+                    <td><b>3 365,30 </b></td>
+                </tr>
+            </table>
+            
+            <p style='margin-top: 20px;'>Veuillez vous connecter au tableau de bord Streamlit ou à l'entrepôt Snowflake pour valider le plan de remédiation automatisé.</p>
+        </div>
+        <div class='footer'>
+            Module de Notification Automatisé FinOps — Intégré via GitHub Actions CI/CD<br>
+            &copy; 2026 NTT DATA - Tous droits réservés
+        </div>
+    </div>
+</body>
+</html>
+'''
+with open('email_alerte.html', 'w', encoding='utf-8') as f:
+    f.write(html_content)
+print('Fichier email_alerte.html généré avec succès !')
+
