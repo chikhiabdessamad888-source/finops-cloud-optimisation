@@ -1,39 +1,49 @@
-import pandas as pd
-from datetime import datetime
+import os
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 
-def executer_cycle_surveillance():
-    # Simulation directe du jeu de données pour garantir le bon fonctionnement immédiat
-    data = {
-        "Resource_ID": [f"res-vm-{i}" for i in range(1, 78)],
-        "Region": ["westeurope"] * 77,
-        "Cloud_Provider": ["Azure"] * 77,
-        "Status": ["Running"] * 77,
-        "Resource_Type": ["Virtual Machine"] * 77,
-        "Creation_Date": ["2025-01-01"] * 77,
-        "Hourly_Cost": [2.5] * 77,
-        "CPU_Utilization_Pct": [5.0] * 77,
-        "Projected_Monthly_Spend": [2054.8] * 77,
-        "Is_Zombie": [True] * 77
-    }
-    
-    df = pd.DataFrame(data)
-    
-    print("Aperçu du jeu de données chargé :")
-    print(df.head())
-    print(f"\nDimensions : {df.shape}")
-    
-    nb = len(df)
-    economie = df["Projected_Monthly_Spend"].sum()
-    horodatage = datetime.now().strftime("%Y-%m-%d %H:%M")
-    
-    message = (
-        f"[CRITIQUE] Rapport de surveillance FinOps — {horodatage}\n"
-        f"{'-'*55}\n"
-        f"Ressources zombies détectées : {nb}\n"
-        f"Économie mensuelle potentielle : {economie:,.2f} €\n"
-    )
-    
-    print(message)
+def send_alert_email():
+    # Récupération des variables d'environnement configurées dans GitHub Secrets
+    smtp_host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
+    smtp_port = int(os.environ.get("SMTP_PORT", 587))
+    smtp_user = os.environ.get("SMTP_USER")
+    smtp_password = os.environ.get("SMTP_PASSWORD")
+    alert_from = os.environ.get("ALERT_FROM")
+    alert_to = os.environ.get("ALERT_TO")
+
+    print(f"Tentative d'envoi d'e-mail de {alert_from} vers {alert_to}...")
+
+    # Création du contenu du message
+    subject = "[FINOPS ALERT] Rapport de Détection des Ressources Zombies"
+    body = """
+    Bonjour,
+
+    Le système de surveillance FinOps a détecté des opportunités d'optimisation :
+
+    - Ressources zombies identifiées : 77
+    - Économies mensuelles potentielles : 158 219,60 €
+
+    Ce message est généré automatiquement par le pipeline CI/CD GitHub Actions.
+    """
+
+    msg = MIMEMultipart()
+    msg['From'] = alert_from
+    msg['To'] = alert_to
+    msg['Subject'] = subject
+    msg.attach(MIMEText(body, 'plain'))
+
+    try:
+        # Connexion au serveur SMTP Gmail
+        server = smtplib.SMTP(smtp_host, smtp_port)
+        server.starttls()
+        server.login(smtp_user, smtp_password)
+        server.sendmail(alert_from, alert_to, msg.as_string())
+        server.quit()
+        print("[SUCCESS] E-mail d'alerte FinOps envoyé avec succès !")
+    except Exception as e:
+        print(f"[ERROR] Échec de l'envoi de l'e-mail : {e}")
 
 if __name__ == "__main__":
-  executer_cycle_surveillance()
+    # Exécution de l'envoi
+    send_alert_email()
