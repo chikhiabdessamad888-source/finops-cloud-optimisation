@@ -1,49 +1,33 @@
-import os
-import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
+name: Surveillance FinOps
 
-def send_alert_email():
-    # Récupération des variables d'environnement configurées dans GitHub Secrets
-    smtp_host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
-    smtp_port = int(os.environ.get("SMTP_PORT", 587))
-    smtp_user = os.environ.get("SMTP_USER")
-    smtp_password = os.environ.get("SMTP_PASSWORD")
-    alert_from = os.environ.get("ALERT_FROM")
-    alert_to = os.environ.get("ALERT_TO")
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch: # Permet de lancer le workflow manuellement depuis l'onglet Actions
 
-    print(f"Tentative d'envoi d'e-mail de {alert_from} vers {alert_to}...")
+jobs:
+  run-monitoring:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    # Création du contenu du message
-    subject = "[FINOPS ALERT] Rapport de Détection des Ressources Zombies"
-    body = """
-    Bonjour,
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
 
-    Le système de surveillance FinOps a détecté des opportunités d'optimisation :
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-    - Ressources zombies identifiées : 77
-    - Économies mensuelles potentielles : 158 219,60 €
-
-    Ce message est généré automatiquement par le pipeline CI/CD GitHub Actions.
-    """
-
-    msg = MIMEMultipart()
-    msg['From'] = alert_from
-    msg['To'] = alert_to
-    msg['Subject'] = subject
-    msg.attach(MIMEText(body, 'plain'))
-
-    try:
-        # Connexion au serveur SMTP Gmail
-        server = smtplib.SMTP(smtp_host, smtp_port)
-        server.starttls()
-        server.login(smtp_user, smtp_password)
-        server.sendmail(alert_from, alert_to, msg.as_string())
-        server.quit()
-        print("[SUCCESS] E-mail d'alerte FinOps envoyé avec succès !")
-    except Exception as e:
-        print(f"[ERROR] Échec de l'envoi de l'e-mail : {e}")
-
-if __name__ == "__main__":
-    # Exécution de l'envoi
-    send_alert_email()
+      - name: Run zombie monitoring script
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          ALERT_FROM: ${{ secrets.ALERT_FROM }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+        run: python monitoring_zombies.py
