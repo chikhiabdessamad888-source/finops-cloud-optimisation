@@ -1,0 +1,801 @@
+Resource_ID,Region,Cloud_Provider,Resource_Status,Resource_Type,Creation_Date,Hourly_Cost,CPU_Utilization_Pct,Projected_Monthly_Spend,Is_Zombie
+RES-00001,Ap-South-1,AWS,Terminated,Database,2025-11-01,2.79,72.1,2036.7,False
+RES-00002,Us-West-2,Azure,Active,Storage,2025-04-01,3.05,25.1,2226.5,False
+RES-00003,Us-East-1,AWS,Error,Virtual Machine,2025-06-01,0.35,18.8,255.49999999999997,False
+RES-00004,Ap-South-1,AWS,Deleted,Virtual Machine,2025-10-01,0.86,33.2,627.8,False
+RES-00005,Ap-South-1,Azure,Active,Virtual Machine,2025-10-01,0.66,19.5,481.8,False
+RES-00006,Us-West-2,AWS,Running,Virtual Machine,2024-11-01,0.61,6.9,445.3,False
+RES-00007,Us-East-1,Azure,Error,Database,2024-03-01,0.81,27.1,591.3000000000001,False
+RES-00008,Us-East-1,AWS,Stopped,Virtual Machine,2025-10-01,1.71,45.0,1248.3,False
+RES-00009,Ap-South-1,Google Cloud,Active,Virtual Machine,2024-10-01,0.95,6.8,693.5,False
+RES-00010,Eu-West-1,Google Cloud,Stopped,Storage,2024-10-01,1.21,15.6,883.3,False
+RES-00011,Ap-South-1,AWS,Stopped,Storage,2025-09-01,0.44,35.8,321.2,False
+RES-00012,Ap-South-1,AWS,Deleted,Storage,2025-04-01,2.69,14.5,1963.7,True
+RES-00013,Ap-South-1,AWS,Running,Virtual Machine,2024-12-01,2.65,46.0,1934.5,False
+RES-00014,Ap-South-1,Google Cloud,Stopped,Virtual Machine,2024-02-01,0.52,21.2,379.6,False
+RES-00015,Us-West-2,AWS,Active,Virtual Machine,2024-09-01,0.54,64.3,394.20000000000005,False
+RES-00016,Us-East-1,Google Cloud,Running,Virtual Machine,2025-12-01,0.67,100.0,489.1,False
+RES-00017,Us-West-2,Azure,Stopped,Storage,2024-03-01,2.24,63.5,1635.2,False
+RES-00018,Us-West-2,Google Cloud,Active,Database,2025-12-01,1.93,22.7,1408.8999999999999,False
+RES-00019,Us-West-2,Google Cloud,Terminated,Database,2025-03-01,3.08,59.8,2248.4,False
+RES-00020,Ap-South-1,Azure,Running,Database,2024-03-01,3.31,29.6,2416.3,False
+RES-00021,Eu-West-1,Google Cloud,Running,Virtual Machine,2025-07-01,0.33,100.0,240.9,False
+RES-00022,Us-East-1,AWS,Deleted,Storage,2025-06-01,2.18,25.4,1591.4,False
+RES-00023,Eu-West-1,AWS,Running,Virtual Machine,2024-08-01,3.22,26.9,2350.6000000000004,False
+RES-00024,Us-West-2,Google Cloud,Deleted,Storage,2025-05-01,1.14,34.2,832.1999999999999,False
+RES-00025,Us-West-2,AWS,Stopped,Storage,2024-08-01,1.47,63.9,1073.1,False
+RES-00026,Eu-West-1,Google Cloud,Active,Virtual Machine,2024-07-01,1.31,35.0,956.3000000000001,False
+RES-00027,Eu-West-1,AWS,Stopped,Virtual Machine,2024-07-01,1.35,54.4,985.5000000000001,False
+RES-00028,Eu-West-1,AWS,Stopped,Network,2024-03-01,2.68,26.5,1956.4,False
+RES-00029,Us-West-2,Google Cloud,Running,Virtual Machine,2024-01-01,4.59,48.7,3350.7,False
+RES-00030,Us-West-2,AWS,Active,Virtual Machine,2024-04-01,3.75,22.8,2737.5,False
+RES-00031,Us-East-1,Google Cloud,Active,Virtual Machine,2024-05-01,0.99,15.9,722.7,False
+RES-00032,Us-East-1,AWS,Active,Database,2024-01-01,1.83,48.1,1335.9,False
+RES-00033,Us-West-2,AWS,Active,Storage,2025-03-01,0.76,36.0,554.8,False
+RES-00034,Eu-West-1,Azure,Running,Storage,2024-05-01,0.83,23.7,605.9,False
+RES-00035,Eu-West-1,Azure,Active,Virtual Machine,2025-01-01,1.42,34.5,1036.6,False
+RES-00036,Us-East-1,Google Cloud,Running,Storage,2024-08-01,0.81,74.1,591.3000000000001,False
+RES-00037,Us-West-2,Azure,Stopped,Virtual Machine,2024-08-01,0.92,74.8,671.6,False
+RES-00038,Us-East-1,Google Cloud,Running,Database,2024-05-01,1.8,80.9,1314.0,False
+RES-00039,Us-East-1,Azure,Deleted,Storage,2024-09-01,2.16,35.5,1576.8000000000002,False
+RES-00040,Ap-South-1,AWS,Stopped,Virtual Machine,2024-01-01,2.12,54.8,1547.6000000000001,False
+RES-00041,Ap-South-1,Google Cloud,Deleted,Virtual Machine,2024-04-01,2.13,25.2,1554.8999999999999,False
+RES-00042,Ap-South-1,Google Cloud,Stopped,Virtual Machine,2024-03-01,0.47,0.3,343.09999999999997,False
+RES-00043,Eu-West-1,AWS,Stopped,Virtual Machine,2024-02-01,0.78,15.7,569.4,False
+RES-00044,Us-West-2,Google Cloud,Error,Virtual Machine,2024-08-01,1.54,11.6,1124.2,True
+RES-00045,Us-West-2,Google Cloud,Active,Storage,2025-11-01,3.12,37.2,2277.6,False
+RES-00046,Us-West-2,Azure,Active,Storage,2024-09-01,6.26,21.5,4569.8,False
+RES-00047,Us-West-2,Google Cloud,Deleted,Virtual Machine,2024-02-01,1.88,2.2,1372.3999999999999,True
+RES-00048,Ap-South-1,AWS,Active,Virtual Machine,2025-02-01,2.5,18.4,1825.0,False
+RES-00049,Eu-West-1,Azure,Deleted,Virtual Machine,2025-02-01,0.42,48.0,306.59999999999997,False
+RES-00050,Eu-West-1,Azure,Stopped,Database,2024-04-01,2.46,61.2,1795.8,False
+RES-00051,Ap-South-1,AWS,Terminated,Virtual Machine,2024-06-01,5.21,43.9,3803.3,False
+RES-00052,Eu-West-1,AWS,Running,Storage,2024-11-01,0.77,25.4,562.1,False
+RES-00053,Ap-South-1,Azure,Running,Database,2024-03-01,0.95,54.9,693.5,False
+RES-00054,Us-West-2,Google Cloud,Terminated,Storage,2024-08-01,2.74,23.9,2000.2,False
+RES-00055,Ap-South-1,Azure,Stopped,Database,2024-03-01,1.53,36.7,1116.9,False
+RES-00056,Us-West-2,AWS,Error,Virtual Machine,2025-02-01,0.19,50.7,138.7,False
+RES-00057,Us-West-2,Azure,Active,Network,2025-01-01,1.0,40.9,730.0,False
+RES-00058,Us-East-1,AWS,Stopped,Virtual Machine,2025-01-01,3.88,18.1,2832.4,False
+RES-00059,Ap-South-1,Azure,Active,Virtual Machine,2024-02-01,1.2,5.8,876.0,False
+RES-00060,Us-East-1,Google Cloud,Running,Storage,2025-01-01,1.2,6.5,876.0,False
+RES-00061,Ap-South-1,Azure,Active,Network,2025-07-01,2.62,28.2,1912.6000000000001,False
+RES-00062,Ap-South-1,Azure,Deleted,Database,2024-06-01,1.93,11.8,1408.8999999999999,True
+RES-00063,Us-East-1,AWS,Deleted,Virtual Machine,2025-04-01,1.15,1.5,839.4999999999999,False
+RES-00064,Us-East-1,AWS,Error,Virtual Machine,2024-02-01,0.9,17.8,657.0,False
+RES-00065,Ap-South-1,AWS,Active,Network,2024-08-01,8.2,50.2,5985.999999999999,False
+RES-00066,Eu-West-1,Azure,Running,Virtual Machine,2025-05-01,3.46,39.9,2525.8,False
+RES-00067,Us-West-2,Google Cloud,Stopped,Database,2025-11-01,2.13,8.9,1554.8999999999999,True
+RES-00068,Us-East-1,AWS,Stopped,Database,2024-02-01,2.23,41.8,1627.9,False
+RES-00069,Us-West-2,AWS,Stopped,Storage,2024-10-01,1.36,8.5,992.8000000000001,False
+RES-00070,Eu-West-1,Azure,Stopped,Virtual Machine,2025-04-01,1.91,52.1,1394.3,False
+RES-00071,Eu-West-1,AWS,Running,Storage,2024-06-01,1.25,39.9,912.5,False
+RES-00072,Eu-West-1,Google Cloud,Running,Virtual Machine,2024-02-01,0.71,7.5,518.3,False
+RES-00073,Us-East-1,Google Cloud,Stopped,Database,2024-02-01,1.97,26.1,1438.1,False
+RES-00074,Eu-West-1,AWS,Active,Storage,2025-01-01,1.16,4.5,846.8,False
+RES-00075,Us-East-1,AWS,Active,Database,2025-12-01,2.04,24.2,1489.2,False
+RES-00076,Eu-West-1,Azure,Active,Virtual Machine,2025-03-01,2.32,17.1,1693.6,False
+RES-00077,Us-West-2,Google Cloud,Error,Network,2024-02-01,2.12,45.5,1547.6000000000001,False
+RES-00078,Us-West-2,Google Cloud,Active,Virtual Machine,2024-07-01,0.66,55.0,481.8,False
+RES-00079,Ap-South-1,AWS,Active,Virtual Machine,2024-03-01,1.07,29.2,781.1,False
+RES-00080,Us-West-2,Azure,Stopped,Virtual Machine,2024-08-01,1.18,82.0,861.4,False
+RES-00081,Ap-South-1,Google Cloud,Deleted,Database,2025-11-01,2.94,18.4,2146.2,False
+RES-00082,Us-West-2,Google Cloud,Error,Storage,2025-02-01,1.55,43.7,1131.5,False
+RES-00083,Us-East-1,Azure,Deleted,Database,2025-12-01,0.82,48.3,598.5999999999999,False
+RES-00084,Us-West-2,Azure,Running,Virtual Machine,2025-11-01,0.46,25.1,335.8,False
+RES-00085,Ap-South-1,Google Cloud,Running,Virtual Machine,2025-10-01,6.46,15.4,4715.8,False
+RES-00086,Ap-South-1,Google Cloud,Active,Storage,2024-07-01,2.06,60.9,1503.8,False
+RES-00087,Eu-West-1,Azure,Error,Virtual Machine,2025-09-01,0.4,34.2,292.0,False
+RES-00088,Us-East-1,Google Cloud,Deleted,Storage,2024-07-01,0.93,26.5,678.9000000000001,False
+RES-00089,Us-West-2,AWS,Running,Network,2024-01-01,3.03,20.9,2211.8999999999996,False
+RES-00090,Eu-West-1,AWS,Deleted,Network,2025-05-01,5.47,26.3,3993.1,False
+RES-00091,Us-West-2,Azure,Running,Network,2024-09-01,4.89,43.9,3569.7,False
+RES-00092,Us-West-2,Azure,Running,Database,2025-09-01,2.0,24.6,1460.0,False
+RES-00093,Eu-West-1,Azure,Error,Virtual Machine,2025-01-01,1.5,43.2,1095.0,False
+RES-00094,Eu-West-1,AWS,Terminated,Virtual Machine,2025-09-01,0.6,76.9,438.0,False
+RES-00095,Eu-West-1,Google Cloud,Running,Storage,2025-07-01,1.6,38.1,1168.0,False
+RES-00096,Eu-West-1,AWS,Running,Database,2025-09-01,0.68,10.7,496.40000000000003,False
+RES-00097,Eu-West-1,Google Cloud,Active,Virtual Machine,2025-07-01,1.07,14.7,781.1,False
+RES-00098,Us-West-2,AWS,Running,Virtual Machine,2025-10-01,2.73,32.6,1992.9,False
+RES-00099,Eu-West-1,Google Cloud,Active,Virtual Machine,2025-05-01,1.24,78.0,905.2,False
+RES-00100,Us-East-1,AWS,Running,Storage,2025-11-01,1.18,24.8,861.4,False
+RES-00101,Ap-South-1,Azure,Error,Database,2025-11-01,1.44,69.9,1051.2,False
+RES-00102,Eu-West-1,AWS,Running,Database,2024-10-01,7.07,69.8,5161.1,False
+RES-00103,Eu-West-1,Google Cloud,Stopped,Virtual Machine,2024-10-01,0.54,18.6,394.20000000000005,False
+RES-00104,Us-West-2,AWS,Stopped,Network,2024-04-01,1.85,57.3,1350.5,False
+RES-00105,Eu-West-1,AWS,Active,Storage,2024-08-01,4.61,2.8,3365.3,True
+RES-00106,Eu-West-1,AWS,Running,Virtual Machine,2025-10-01,1.44,12.2,1051.2,False
+RES-00107,Eu-West-1,Azure,Active,Virtual Machine,2025-08-01,3.42,58.3,2496.6,False
+RES-00108,Us-West-2,AWS,Active,Virtual Machine,2025-08-01,0.43,13.8,313.9,False
+RES-00109,Eu-West-1,Azure,Stopped,Virtual Machine,2025-06-01,1.55,21.9,1131.5,False
+RES-00110,Ap-South-1,Azure,Deleted,Network,2025-02-01,0.75,100.0,547.5,False
+RES-00111,Us-West-2,AWS,Deleted,Storage,2025-06-01,1.43,51.5,1043.8999999999999,False
+RES-00112,Ap-South-1,AWS,Active,Database,2025-02-01,1.45,9.8,1058.5,False
+RES-00113,Us-West-2,AWS,Stopped,Virtual Machine,2025-08-01,1.57,21.7,1146.1000000000001,False
+RES-00114,Eu-West-1,Google Cloud,Running,Virtual Machine,2025-09-01,2.72,2.6,1985.6000000000001,True
+RES-00115,Ap-South-1,AWS,Running,Storage,2025-12-01,0.11,56.0,80.3,False
+RES-00116,Us-West-2,Azure,Running,Virtual Machine,2025-03-01,0.9,29.3,657.0,False
+RES-00117,Us-East-1,AWS,Stopped,Storage,2025-10-01,1.76,24.1,1284.8,False
+RES-00118,Eu-West-1,Google Cloud,Running,Network,2024-04-01,0.21,56.3,153.29999999999998,False
+RES-00119,Us-West-2,AWS,Stopped,Storage,2025-01-01,2.34,27.8,1708.1999999999998,False
+RES-00120,Us-East-1,Google Cloud,Terminated,Storage,2025-11-01,0.89,45.7,649.7,False
+RES-00121,Us-West-2,Google Cloud,Running,Virtual Machine,2024-08-01,1.3,15.6,949.0,False
+RES-00122,Us-East-1,AWS,Stopped,Virtual Machine,2025-06-01,2.8,11.2,2043.9999999999998,True
+RES-00123,Eu-West-1,Azure,Stopped,Virtual Machine,2024-12-01,3.52,26.8,2569.6,False
+RES-00124,Ap-South-1,Google Cloud,Running,Storage,2025-11-01,2.39,54.4,1744.7,False
+RES-00125,Us-East-1,AWS,Deleted,Virtual Machine,2025-02-01,0.53,44.0,386.90000000000003,False
+RES-00126,Us-West-2,AWS,Running,Virtual Machine,2024-02-01,2.31,5.3,1686.3,True
+RES-00127,Eu-West-1,Azure,Running,Storage,2025-06-01,2.42,47.3,1766.6,False
+RES-00128,Us-East-1,Google Cloud,Running,Virtual Machine,2025-12-01,2.1,13.9,1533.0,True
+RES-00129,Us-West-2,Google Cloud,Running,Virtual Machine,2024-02-01,3.91,16.1,2854.3,False
+RES-00130,Us-West-2,AWS,Stopped,Virtual Machine,2024-11-01,1.6,38.2,1168.0,False
+RES-00131,Us-West-2,AWS,Terminated,Network,2024-09-01,3.81,8.1,2781.3,True
+RES-00132,Us-East-1,Azure,Stopped,Storage,2024-12-01,3.79,53.7,2766.7,False
+RES-00133,Us-East-1,Azure,Stopped,Storage,2025-05-01,2.47,10.5,1803.1000000000001,True
+RES-00134,Us-East-1,Google Cloud,Error,Virtual Machine,2025-03-01,1.87,50.7,1365.1000000000001,False
+RES-00135,Ap-South-1,Google Cloud,Active,Network,2025-05-01,2.11,22.7,1540.3,False
+RES-00136,Us-East-1,AWS,Active,Storage,2025-06-01,4.47,26.5,3263.1,False
+RES-00137,Us-East-1,Google Cloud,Stopped,Virtual Machine,2025-10-01,3.12,36.1,2277.6,False
+RES-00138,Us-East-1,Azure,Terminated,Database,2024-06-01,1.55,39.7,1131.5,False
+RES-00139,Ap-South-1,Azure,Active,Virtual Machine,2025-05-01,2.01,61.2,1467.3,False
+RES-00140,Us-East-1,AWS,Active,Storage,2025-11-01,0.71,62.8,518.3,False
+RES-00141,Us-West-2,Azure,Active,Storage,2025-12-01,0.86,12.6,627.8,False
+RES-00142,Us-East-1,Azure,Active,Virtual Machine,2025-06-01,1.11,84.6,810.3000000000001,False
+RES-00143,Us-West-2,Azure,Active,Network,2024-08-01,0.39,63.3,284.7,False
+RES-00144,Us-West-2,Azure,Stopped,Database,2024-09-01,0.67,43.3,489.1,False
+RES-00145,Us-West-2,AWS,Running,Storage,2024-06-01,1.55,21.2,1131.5,False
+RES-00146,Ap-South-1,AWS,Active,Virtual Machine,2024-05-01,0.86,37.3,627.8,False
+RES-00147,Ap-South-1,Google Cloud,Stopped,Virtual Machine,2024-12-01,2.73,100.0,1992.9,False
+RES-00148,Ap-South-1,Azure,Active,Virtual Machine,2024-11-01,1.71,7.7,1248.3,True
+RES-00149,Us-East-1,Google Cloud,Stopped,Database,2024-01-01,2.24,41.5,1635.2,False
+RES-00150,Us-West-2,AWS,Running,Virtual Machine,2024-11-01,2.31,52.7,1686.3,False
+RES-00151,Ap-South-1,AWS,Running,Storage,2025-07-01,0.65,39.1,474.5,False
+RES-00152,Ap-South-1,AWS,Active,Database,2024-09-01,2.72,65.1,1985.6000000000001,False
+RES-00153,Us-East-1,AWS,Stopped,Virtual Machine,2024-02-01,0.48,40.8,350.4,False
+RES-00154,Ap-South-1,AWS,Active,Storage,2024-12-01,0.83,40.8,605.9,False
+RES-00155,Us-East-1,AWS,Deleted,Virtual Machine,2024-04-01,2.28,51.2,1664.3999999999999,False
+RES-00156,Eu-West-1,AWS,Running,Network,2024-04-01,0.61,19.8,445.3,False
+RES-00157,Ap-South-1,Azure,Running,Storage,2025-06-01,0.18,14.3,131.4,False
+RES-00158,Eu-West-1,Google Cloud,Active,Virtual Machine,2025-03-01,1.94,19.0,1416.2,False
+RES-00159,Us-East-1,AWS,Terminated,Virtual Machine,2025-07-01,0.32,32.2,233.6,False
+RES-00160,Us-West-2,Azure,Active,Virtual Machine,2025-01-01,2.44,4.5,1781.2,True
+RES-00161,Ap-South-1,Azure,Active,Database,2025-07-01,1.18,22.9,861.4,False
+RES-00162,Us-East-1,Google Cloud,Stopped,Database,2025-05-01,1.92,47.7,1401.6,False
+RES-00163,Us-West-2,AWS,Active,Storage,2024-06-01,1.9,49.8,1387.0,False
+RES-00164,Us-West-2,Google Cloud,Error,Virtual Machine,2025-04-01,2.56,4.1,1868.8,True
+RES-00165,Eu-West-1,AWS,Deleted,Virtual Machine,2025-12-01,2.33,29.9,1700.9,False
+RES-00166,Us-East-1,Azure,Active,Virtual Machine,2024-12-01,0.6,35.2,438.0,False
+RES-00167,Us-West-2,Azure,Running,Storage,2025-07-01,1.23,40.8,897.9,False
+RES-00168,Ap-South-1,Azure,Error,Database,2024-05-01,1.92,22.4,1401.6,False
+RES-00169,Ap-South-1,Azure,Terminated,Virtual Machine,2025-05-01,3.85,39.4,2810.5,False
+RES-00170,Eu-West-1,Google Cloud,Running,Virtual Machine,2025-11-01,2.35,15.2,1715.5,False
+RES-00171,Us-West-2,AWS,Terminated,Storage,2024-01-01,3.63,8.5,2649.9,True
+RES-00172,Us-East-1,AWS,Error,Database,2025-12-01,2.0,58.0,1460.0,False
+RES-00173,Ap-South-1,Google Cloud,Deleted,Database,2025-11-01,3.16,100.0,2306.8,False
+RES-00174,Us-West-2,AWS,Active,Database,2024-10-01,1.81,54.3,1321.3,False
+RES-00175,Us-West-2,Azure,Stopped,Virtual Machine,2025-03-01,3.07,26.8,2241.1,False
+RES-00176,Eu-West-1,AWS,Deleted,Virtual Machine,2025-11-01,1.13,17.5,824.9,False
+RES-00177,Ap-South-1,Azure,Active,Database,2025-09-01,4.15,9.0,3029.5000000000005,True
+RES-00178,Ap-South-1,Google Cloud,Deleted,Storage,2025-09-01,2.16,29.1,1576.8000000000002,False
+RES-00179,Us-East-1,AWS,Active,Virtual Machine,2024-11-01,0.39,27.5,284.7,False
+RES-00180,Ap-South-1,Google Cloud,Active,Database,2025-01-01,1.97,37.6,1438.1,False
+RES-00181,Us-East-1,AWS,Stopped,Database,2024-05-01,2.35,15.0,1715.5,False
+RES-00182,Ap-South-1,Azure,Active,Storage,2024-01-01,2.78,11.7,2029.3999999999999,True
+RES-00183,Eu-West-1,Google Cloud,Error,Storage,2025-12-01,5.11,18.5,3730.3,False
+RES-00184,Ap-South-1,AWS,Deleted,Virtual Machine,2024-12-01,0.99,35.1,722.7,False
+RES-00185,Us-East-1,Azure,Deleted,Storage,2024-11-01,5.13,52.8,3744.9,False
+RES-00186,Us-East-1,Google Cloud,Running,Storage,2025-05-01,1.5,15.7,1095.0,False
+RES-00187,Eu-West-1,Google Cloud,Active,Database,2024-04-01,0.79,10.0,576.7,False
+RES-00188,Ap-South-1,AWS,Stopped,Database,2025-03-01,1.0,20.6,730.0,False
+RES-00189,Ap-South-1,AWS,Running,Database,2024-09-01,2.25,76.9,1642.5,False
+RES-00190,Eu-West-1,AWS,Running,Virtual Machine,2025-09-01,0.69,16.0,503.7,False
+RES-00191,Ap-South-1,Azure,Active,Database,2025-08-01,1.14,36.1,832.1999999999999,False
+RES-00192,Ap-South-1,AWS,Stopped,Database,2025-07-01,1.93,17.6,1408.8999999999999,False
+RES-00193,Us-East-1,Google Cloud,Stopped,Storage,2025-07-01,4.13,23.2,3014.9,False
+RES-00194,Ap-South-1,Google Cloud,Error,Database,2024-12-01,2.73,55.7,1992.9,False
+RES-00195,Ap-South-1,AWS,Terminated,Database,2024-05-01,1.55,69.5,1131.5,False
+RES-00196,Eu-West-1,AWS,Stopped,Storage,2024-10-01,2.25,67.7,1642.5,False
+RES-00197,Eu-West-1,Google Cloud,Running,Storage,2025-05-01,1.8,56.8,1314.0,False
+RES-00198,Us-West-2,Azure,Deleted,Virtual Machine,2024-05-01,0.52,22.3,379.6,False
+RES-00199,Us-East-1,AWS,Active,Virtual Machine,2025-10-01,4.6,18.6,3357.9999999999995,False
+RES-00200,Ap-South-1,AWS,Terminated,Storage,2025-04-01,4.17,14.0,3044.1,True
+RES-00201,Ap-South-1,Google Cloud,Terminated,Database,2024-07-01,1.42,43.4,1036.6,False
+RES-00202,Us-West-2,AWS,Stopped,Virtual Machine,2024-09-01,1.03,14.2,751.9,False
+RES-00203,Ap-South-1,Azure,Stopped,Virtual Machine,2024-03-01,0.53,60.1,386.90000000000003,False
+RES-00204,Us-East-1,Google Cloud,Active,Storage,2025-03-01,2.35,8.6,1715.5,True
+RES-00205,Us-West-2,AWS,Stopped,Virtual Machine,2025-04-01,2.36,1.8,1722.8,True
+RES-00206,Us-East-1,Google Cloud,Active,Virtual Machine,2025-06-01,0.75,57.8,547.5,False
+RES-00207,Us-West-2,AWS,Deleted,Virtual Machine,2025-02-01,1.81,66.6,1321.3,False
+RES-00208,Us-West-2,AWS,Active,Virtual Machine,2024-03-01,2.67,29.9,1949.1,False
+RES-00209,Eu-West-1,AWS,Stopped,Virtual Machine,2024-12-01,0.98,39.0,715.4,False
+RES-00210,Us-East-1,Azure,Terminated,Virtual Machine,2024-09-01,1.28,64.8,934.4,False
+RES-00211,Ap-South-1,Azure,Running,Virtual Machine,2024-07-01,1.27,35.9,927.1,False
+RES-00212,Ap-South-1,Google Cloud,Active,Database,2024-09-01,0.79,31.5,576.7,False
+RES-00213,Us-East-1,AWS,Active,Storage,2025-01-01,1.3,9.7,949.0,False
+RES-00214,Ap-South-1,AWS,Active,Database,2025-06-01,0.32,26.3,233.6,False
+RES-00215,Ap-South-1,Azure,Running,Virtual Machine,2024-05-01,1.22,8.2,890.6,False
+RES-00216,Us-East-1,AWS,Active,Virtual Machine,2025-01-01,1.24,51.5,905.2,False
+RES-00217,Us-West-2,Azure,Running,Database,2024-04-01,1.43,14.3,1043.8999999999999,False
+RES-00218,Us-East-1,AWS,Error,Virtual Machine,2024-02-01,2.13,7.7,1554.8999999999999,True
+RES-00219,Us-West-2,Google Cloud,Active,Storage,2025-04-01,0.49,19.4,357.7,False
+RES-00220,Ap-South-1,AWS,Terminated,Storage,2024-09-01,0.59,20.9,430.7,False
+RES-00221,Ap-South-1,AWS,Error,Storage,2024-09-01,0.77,48.2,562.1,False
+RES-00222,Ap-South-1,Azure,Active,Virtual Machine,2024-06-01,0.44,25.0,321.2,False
+RES-00223,Eu-West-1,AWS,Terminated,Virtual Machine,2024-11-01,2.3,8.6,1678.9999999999998,True
+RES-00224,Us-West-2,AWS,Stopped,Storage,2025-10-01,0.94,71.9,686.1999999999999,False
+RES-00225,Eu-West-1,Azure,Terminated,Virtual Machine,2025-12-01,1.46,57.8,1065.8,False
+RES-00226,Eu-West-1,Google Cloud,Running,Storage,2025-10-01,0.71,29.8,518.3,False
+RES-00227,Us-East-1,Google Cloud,Running,Database,2024-01-01,1.12,33.8,817.6,False
+RES-00228,Eu-West-1,Azure,Running,Network,2024-04-01,1.88,68.1,1372.3999999999999,False
+RES-00229,Us-East-1,Azure,Terminated,Virtual Machine,2025-01-01,1.94,26.4,1416.2,False
+RES-00230,Us-East-1,Azure,Running,Database,2025-11-01,0.61,25.9,445.3,False
+RES-00231,Eu-West-1,Azure,Running,Storage,2025-01-01,1.41,41.1,1029.3,False
+RES-00232,Us-West-2,Azure,Terminated,Virtual Machine,2025-01-01,0.73,25.3,532.9,False
+RES-00233,Us-West-2,Google Cloud,Active,Virtual Machine,2024-02-01,1.37,29.4,1000.1,False
+RES-00234,Us-West-2,Google Cloud,Active,Database,2024-09-01,0.88,43.7,642.4,False
+RES-00235,Us-West-2,Azure,Active,Virtual Machine,2025-12-01,4.8,49.3,3504.0,False
+RES-00236,Us-West-2,AWS,Stopped,Virtual Machine,2024-08-01,2.66,14.3,1941.8000000000002,True
+RES-00237,Eu-West-1,Azure,Active,Virtual Machine,2024-07-01,2.01,32.5,1467.3,False
+RES-00238,Eu-West-1,AWS,Terminated,Database,2024-04-01,1.2,54.5,876.0,False
+RES-00239,Ap-South-1,Azure,Active,Database,2025-06-01,2.71,42.8,1978.3,False
+RES-00240,Us-West-2,Azure,Running,Database,2024-03-01,1.44,35.2,1051.2,False
+RES-00241,Eu-West-1,Google Cloud,Active,Virtual Machine,2024-06-01,4.48,42.0,3270.4,False
+RES-00242,Ap-South-1,AWS,Terminated,Virtual Machine,2024-12-01,2.9,10.3,2117.0,True
+RES-00243,Us-West-2,AWS,Error,Storage,2024-12-01,1.11,24.9,810.3000000000001,False
+RES-00244,Us-East-1,Google Cloud,Stopped,Storage,2025-09-01,4.15,15.6,3029.5000000000005,False
+RES-00245,Ap-South-1,Google Cloud,Terminated,Virtual Machine,2024-08-01,1.2,33.8,876.0,False
+RES-00246,Eu-West-1,Google Cloud,Active,Storage,2025-10-01,4.98,63.6,3635.4,False
+RES-00247,Us-East-1,Google Cloud,Deleted,Network,2025-10-01,4.29,13.9,3131.7,True
+RES-00248,Us-East-1,AWS,Active,Database,2024-01-01,1.87,31.1,1365.1000000000001,False
+RES-00249,Us-East-1,AWS,Terminated,Database,2024-04-01,0.34,17.6,248.20000000000002,False
+RES-00250,Ap-South-1,Azure,Active,Network,2025-09-01,1.77,12.7,1292.1,True
+RES-00251,Eu-West-1,Azure,Running,Virtual Machine,2024-11-01,0.55,38.0,401.50000000000006,False
+RES-00252,Us-East-1,Google Cloud,Deleted,Storage,2024-03-01,0.9,11.2,657.0,False
+RES-00253,Us-West-2,Google Cloud,Active,Network,2025-01-01,0.96,38.9,700.8,False
+RES-00254,Us-East-1,Google Cloud,Active,Virtual Machine,2025-05-01,0.55,42.7,401.50000000000006,False
+RES-00255,Us-East-1,Azure,Active,Database,2025-10-01,1.77,18.1,1292.1,False
+RES-00256,Ap-South-1,Azure,Stopped,Storage,2025-10-01,0.81,32.0,591.3000000000001,False
+RES-00257,Ap-South-1,Azure,Running,Storage,2024-10-01,1.25,77.1,912.5,False
+RES-00258,Eu-West-1,Azure,Active,Storage,2025-09-01,0.96,100.0,700.8,False
+RES-00259,Us-West-2,Azure,Stopped,Network,2024-12-01,2.14,25.1,1562.2,False
+RES-00260,Ap-South-1,Azure,Active,Database,2025-03-01,2.03,75.3,1481.8999999999999,False
+RES-00261,Us-East-1,Azure,Deleted,Virtual Machine,2025-09-01,1.17,41.2,854.0999999999999,False
+RES-00262,Eu-West-1,Google Cloud,Active,Database,2024-10-01,2.21,52.6,1613.3,False
+RES-00263,Us-East-1,Google Cloud,Active,Virtual Machine,2025-02-01,3.43,63.1,2503.9,False
+RES-00264,Us-East-1,Google Cloud,Active,Virtual Machine,2025-01-01,0.15,56.6,109.5,False
+RES-00265,Ap-South-1,Google Cloud,Stopped,Storage,2024-05-01,0.92,40.2,671.6,False
+RES-00266,Eu-West-1,Azure,Deleted,Storage,2024-06-01,0.65,47.0,474.5,False
+RES-00267,Us-West-2,AWS,Stopped,Virtual Machine,2025-12-01,0.85,15.1,620.5,False
+RES-00268,Us-West-2,Azure,Active,Network,2024-02-01,0.11,26.3,80.3,False
+RES-00269,Ap-South-1,AWS,Deleted,Database,2025-10-01,0.14,65.7,102.2,False
+RES-00270,Ap-South-1,Google Cloud,Deleted,Storage,2025-05-01,0.99,67.2,722.7,False
+RES-00271,Eu-West-1,Azure,Active,Virtual Machine,2024-04-01,0.97,33.5,708.1,False
+RES-00272,Us-West-2,Google Cloud,Deleted,Network,2025-02-01,3.76,31.2,2744.7999999999997,False
+RES-00273,Us-West-2,Azure,Terminated,Network,2024-10-01,1.67,15.0,1219.1,False
+RES-00274,Us-West-2,Google Cloud,Active,Database,2024-03-01,2.17,100.0,1584.1,False
+RES-00275,Us-East-1,AWS,Deleted,Virtual Machine,2024-03-01,12.25,2.1,8942.5,True
+RES-00276,Us-West-2,AWS,Running,Virtual Machine,2025-03-01,4.53,15.7,3306.9,False
+RES-00277,Us-East-1,AWS,Stopped,Virtual Machine,2024-06-01,1.45,38.7,1058.5,False
+RES-00278,Eu-West-1,Azure,Active,Virtual Machine,2025-05-01,1.06,34.4,773.8000000000001,False
+RES-00279,Us-East-1,AWS,Active,Virtual Machine,2024-12-01,0.93,32.1,678.9000000000001,False
+RES-00280,Eu-West-1,Azure,Deleted,Network,2025-10-01,1.92,27.2,1401.6,False
+RES-00281,Us-West-2,AWS,Error,Storage,2025-08-01,1.07,5.6,781.1,False
+RES-00282,Us-West-2,AWS,Running,Virtual Machine,2025-12-01,0.53,65.1,386.90000000000003,False
+RES-00283,Eu-West-1,Azure,Stopped,Virtual Machine,2024-11-01,0.96,18.2,700.8,False
+RES-00284,Ap-South-1,Azure,Running,Virtual Machine,2024-04-01,1.96,35.5,1430.8,False
+RES-00285,Eu-West-1,AWS,Running,Virtual Machine,2024-06-01,2.45,69.2,1788.5000000000002,False
+RES-00286,Ap-South-1,Azure,Stopped,Virtual Machine,2024-01-01,4.84,52.5,3533.2,False
+RES-00287,Us-East-1,AWS,Active,Virtual Machine,2025-08-01,1.62,71.8,1182.6000000000001,False
+RES-00288,Us-East-1,Azure,Deleted,Database,2025-11-01,3.57,18.1,2606.1,False
+RES-00289,Us-East-1,Google Cloud,Stopped,Network,2025-04-01,1.28,22.8,934.4,False
+RES-00290,Us-West-2,Google Cloud,Deleted,Virtual Machine,2025-03-01,1.43,59.7,1043.8999999999999,False
+RES-00291,Us-East-1,Google Cloud,Active,Virtual Machine,2025-05-01,1.37,29.5,1000.1,False
+RES-00292,Ap-South-1,Google Cloud,Active,Database,2024-08-01,1.76,14.0,1284.8,True
+RES-00293,Us-East-1,Google Cloud,Active,Virtual Machine,2024-12-01,2.75,75.1,2007.5,False
+RES-00294,Eu-West-1,AWS,Stopped,Virtual Machine,2025-10-01,1.03,20.3,751.9,False
+RES-00295,Eu-West-1,Google Cloud,Terminated,Database,2025-09-01,0.69,33.3,503.7,False
+RES-00296,Us-West-2,Google Cloud,Active,Virtual Machine,2024-10-01,2.91,30.6,2124.3,False
+RES-00297,Eu-West-1,Google Cloud,Deleted,Storage,2025-03-01,2.77,39.8,2022.1,False
+RES-00298,Ap-South-1,Google Cloud,Running,Storage,2024-09-01,3.94,17.2,2876.2,False
+RES-00299,Us-East-1,Azure,Deleted,Virtual Machine,2024-02-01,0.9,16.8,657.0,False
+RES-00300,Us-West-2,AWS,Active,Virtual Machine,2024-05-01,1.25,18.3,912.5,False
+RES-00301,Us-East-1,Google Cloud,Deleted,Database,2024-06-01,2.98,72.7,2175.4,False
+RES-00302,Us-East-1,Google Cloud,Deleted,Virtual Machine,2024-07-01,1.02,43.3,744.6,False
+RES-00303,Ap-South-1,Google Cloud,Active,Virtual Machine,2025-09-01,2.37,34.3,1730.1000000000001,False
+RES-00304,Eu-West-1,AWS,Active,Database,2024-01-01,1.29,21.5,941.7,False
+RES-00305,Eu-West-1,Azure,Terminated,Storage,2025-11-01,1.91,61.4,1394.3,False
+RES-00306,Us-East-1,AWS,Error,Virtual Machine,2024-07-01,0.52,23.7,379.6,False
+RES-00307,Us-West-2,Azure,Active,Database,2025-08-01,1.6,24.5,1168.0,False
+RES-00308,Eu-West-1,Google Cloud,Running,Virtual Machine,2024-12-01,3.38,20.5,2467.4,False
+RES-00309,Us-West-2,Google Cloud,Terminated,Database,2025-04-01,2.6,13.1,1898.0,True
+RES-00310,Eu-West-1,AWS,Deleted,Database,2025-04-01,0.65,43.0,474.5,False
+RES-00311,Us-West-2,AWS,Error,Storage,2024-11-01,4.58,54.2,3343.4,False
+RES-00312,Ap-South-1,Azure,Deleted,Storage,2025-09-01,3.24,6.2,2365.2000000000003,True
+RES-00313,Us-West-2,Azure,Stopped,Network,2024-04-01,0.55,23.0,401.50000000000006,False
+RES-00314,Ap-South-1,AWS,Stopped,Virtual Machine,2025-01-01,0.97,13.6,708.1,False
+RES-00315,Ap-South-1,Azure,Stopped,Database,2024-07-01,0.58,22.0,423.4,False
+RES-00316,Us-West-2,AWS,Running,Virtual Machine,2024-04-01,1.95,15.4,1423.5,False
+RES-00317,Ap-South-1,Azure,Deleted,Virtual Machine,2025-03-01,0.93,27.8,678.9000000000001,False
+RES-00318,Us-East-1,AWS,Active,Virtual Machine,2025-07-01,0.19,66.6,138.7,False
+RES-00319,Ap-South-1,AWS,Terminated,Network,2024-09-01,1.42,18.1,1036.6,False
+RES-00320,Eu-West-1,AWS,Running,Network,2024-11-01,2.83,48.9,2065.9,False
+RES-00321,Us-West-2,Azure,Running,Virtual Machine,2024-08-01,1.63,39.5,1189.8999999999999,False
+RES-00322,Us-East-1,Azure,Stopped,Virtual Machine,2024-01-01,2.22,66.3,1620.6000000000001,False
+RES-00323,Us-West-2,Azure,Running,Database,2025-11-01,1.74,6.0,1270.2,True
+RES-00324,Eu-West-1,AWS,Active,Virtual Machine,2025-12-01,2.52,4.9,1839.6,True
+RES-00325,Eu-West-1,Azure,Active,Virtual Machine,2024-08-01,1.86,22.6,1357.8000000000002,False
+RES-00326,Eu-West-1,Azure,Active,Storage,2025-01-01,1.36,31.5,992.8000000000001,False
+RES-00327,Ap-South-1,AWS,Active,Storage,2025-10-01,1.61,43.2,1175.3000000000002,False
+RES-00328,Ap-South-1,Google Cloud,Stopped,Network,2024-04-01,4.04,13.8,2949.2,True
+RES-00329,Us-West-2,AWS,Running,Virtual Machine,2024-08-01,2.31,2.9,1686.3,True
+RES-00330,Us-West-2,Azure,Active,Virtual Machine,2024-03-01,0.64,84.3,467.2,False
+RES-00331,Us-East-1,AWS,Deleted,Storage,2024-09-01,1.59,22.0,1160.7,False
+RES-00332,Us-East-1,Google Cloud,Active,Database,2024-02-01,1.92,58.4,1401.6,False
+RES-00333,Us-West-2,AWS,Terminated,Storage,2024-02-01,1.33,11.8,970.9000000000001,False
+RES-00334,Ap-South-1,Azure,Error,Storage,2025-01-01,0.2,26.2,146.0,False
+RES-00335,Eu-West-1,Google Cloud,Active,Virtual Machine,2025-03-01,0.71,8.0,518.3,False
+RES-00336,Us-West-2,Azure,Stopped,Database,2025-11-01,1.07,77.0,781.1,False
+RES-00337,Us-East-1,Google Cloud,Active,Virtual Machine,2024-12-01,4.94,20.0,3606.2000000000003,False
+RES-00338,Ap-South-1,Google Cloud,Running,Virtual Machine,2024-04-01,2.14,20.3,1562.2,False
+RES-00339,Us-West-2,AWS,Running,Storage,2024-08-01,1.55,11.8,1131.5,True
+RES-00340,Us-West-2,AWS,Active,Virtual Machine,2024-09-01,1.39,22.9,1014.6999999999999,False
+RES-00341,Ap-South-1,Azure,Running,Virtual Machine,2025-11-01,3.63,43.1,2649.9,False
+RES-00342,Us-West-2,AWS,Active,Database,2024-05-01,0.92,36.3,671.6,False
+RES-00343,Ap-South-1,AWS,Active,Storage,2025-12-01,3.06,48.5,2233.8,False
+RES-00344,Eu-West-1,Google Cloud,Running,Database,2025-08-01,0.34,16.9,248.20000000000002,False
+RES-00345,Ap-South-1,AWS,Stopped,Virtual Machine,2025-06-01,0.03,20.8,21.9,False
+RES-00346,Ap-South-1,Google Cloud,Running,Database,2024-11-01,3.37,34.7,2460.1,False
+RES-00347,Ap-South-1,Google Cloud,Stopped,Virtual Machine,2025-03-01,1.02,52.4,744.6,False
+RES-00348,Us-West-2,Google Cloud,Error,Virtual Machine,2025-10-01,1.09,32.6,795.7,False
+RES-00349,Us-West-2,Azure,Active,Network,2024-09-01,1.73,3.2,1262.9,True
+RES-00350,Ap-South-1,Azure,Stopped,Database,2025-05-01,2.08,39.3,1518.4,False
+RES-00351,Us-West-2,Azure,Running,Storage,2024-12-01,0.07,25.0,51.1,False
+RES-00352,Us-East-1,Google Cloud,Stopped,Virtual Machine,2024-07-01,0.86,32.8,627.8,False
+RES-00353,Us-East-1,Azure,Error,Database,2024-10-01,1.57,28.3,1146.1000000000001,False
+RES-00354,Us-West-2,Azure,Running,Storage,2024-10-01,2.08,27.5,1518.4,False
+RES-00355,Us-West-2,AWS,Running,Database,2025-01-01,0.64,32.9,467.2,False
+RES-00356,Ap-South-1,Azure,Deleted,Database,2025-07-01,1.27,55.9,927.1,False
+RES-00357,Eu-West-1,Azure,Error,Virtual Machine,2024-11-01,0.92,11.1,671.6,False
+RES-00358,Us-West-2,Google Cloud,Terminated,Virtual Machine,2025-01-01,1.78,24.0,1299.4,False
+RES-00359,Us-East-1,Google Cloud,Running,Storage,2025-09-01,3.29,10.2,2401.7,True
+RES-00360,Ap-South-1,Google Cloud,Deleted,Virtual Machine,2024-08-01,1.14,23.9,832.1999999999999,False
+RES-00361,Us-West-2,Google Cloud,Active,Virtual Machine,2024-08-01,0.4,32.7,292.0,False
+RES-00362,Us-East-1,Google Cloud,Active,Network,2024-04-01,0.82,11.3,598.5999999999999,False
+RES-00363,Us-East-1,Google Cloud,Running,Storage,2025-03-01,4.55,38.1,3321.5,False
+RES-00364,Eu-West-1,Azure,Active,Database,2024-11-01,0.71,38.7,518.3,False
+RES-00365,Ap-South-1,Google Cloud,Stopped,Storage,2024-11-01,0.49,13.6,357.7,False
+RES-00366,Ap-South-1,Google Cloud,Active,Storage,2024-01-01,1.09,26.9,795.7,False
+RES-00367,Eu-West-1,AWS,Stopped,Virtual Machine,2025-05-01,1.39,2.9,1014.6999999999999,False
+RES-00368,Eu-West-1,Azure,Deleted,Virtual Machine,2025-03-01,0.97,13.6,708.1,False
+RES-00369,Ap-South-1,Azure,Terminated,Virtual Machine,2025-08-01,0.34,21.1,248.20000000000002,False
+RES-00370,Ap-South-1,Azure,Active,Virtual Machine,2024-06-01,1.91,18.9,1394.3,False
+RES-00371,Us-West-2,Google Cloud,Running,Database,2025-12-01,1.78,4.4,1299.4,True
+RES-00372,Us-West-2,Google Cloud,Terminated,Virtual Machine,2025-10-01,2.46,9.5,1795.8,True
+RES-00373,Eu-West-1,Google Cloud,Active,Storage,2025-03-01,1.75,24.4,1277.5,False
+RES-00374,Us-West-2,AWS,Deleted,Virtual Machine,2024-09-01,4.31,60.3,3146.2999999999997,False
+RES-00375,Us-East-1,Google Cloud,Stopped,Virtual Machine,2025-02-01,2.59,50.4,1890.6999999999998,False
+RES-00376,Us-West-2,AWS,Stopped,Virtual Machine,2025-06-01,2.24,30.9,1635.2,False
+RES-00377,Us-West-2,Azure,Error,Virtual Machine,2025-05-01,3.37,44.0,2460.1,False
+RES-00378,Us-East-1,Google Cloud,Active,Virtual Machine,2025-06-01,1.67,61.8,1219.1,False
+RES-00379,Eu-West-1,AWS,Running,Virtual Machine,2024-05-01,1.29,8.5,941.7,False
+RES-00380,Us-East-1,AWS,Deleted,Virtual Machine,2025-08-01,1.89,66.3,1379.6999999999998,False
+RES-00381,Us-West-2,Google Cloud,Active,Database,2025-08-01,0.18,48.3,131.4,False
+RES-00382,Eu-West-1,Azure,Running,Virtual Machine,2024-09-01,1.55,54.6,1131.5,False
+RES-00383,Us-West-2,Azure,Error,Virtual Machine,2024-11-01,1.39,9.3,1014.6999999999999,False
+RES-00384,Us-East-1,Azure,Active,Storage,2025-12-01,2.04,21.4,1489.2,False
+RES-00385,Us-East-1,AWS,Terminated,Virtual Machine,2025-10-01,3.07,55.0,2241.1,False
+RES-00386,Us-West-2,AWS,Running,Database,2024-01-01,2.29,30.5,1671.7,False
+RES-00387,Ap-South-1,AWS,Running,Storage,2025-06-01,0.82,28.7,598.5999999999999,False
+RES-00388,Ap-South-1,AWS,Running,Virtual Machine,2024-06-01,2.73,61.4,1992.9,False
+RES-00389,Us-East-1,Azure,Active,Storage,2024-02-01,4.35,25.6,3175.4999999999995,False
+RES-00390,Us-East-1,Google Cloud,Terminated,Virtual Machine,2025-03-01,3.12,39.5,2277.6,False
+RES-00391,Ap-South-1,AWS,Terminated,Storage,2025-09-01,0.44,65.0,321.2,False
+RES-00392,Ap-South-1,AWS,Running,Virtual Machine,2025-02-01,2.27,69.6,1657.1,False
+RES-00393,Us-West-2,Azure,Deleted,Database,2024-05-01,0.51,13.2,372.3,False
+RES-00394,Us-West-2,Google Cloud,Running,Virtual Machine,2024-06-01,1.19,24.5,868.6999999999999,False
+RES-00395,Ap-South-1,Google Cloud,Stopped,Storage,2024-06-01,2.0,48.3,1460.0,False
+RES-00396,Us-West-2,Azure,Running,Storage,2025-10-01,1.81,73.3,1321.3,False
+RES-00397,Us-West-2,Azure,Running,Virtual Machine,2025-06-01,3.08,13.3,2248.4,True
+RES-00398,Eu-West-1,Google Cloud,Running,Virtual Machine,2025-02-01,4.36,48.4,3182.8,False
+RES-00399,Us-West-2,AWS,Deleted,Database,2024-10-01,2.15,27.5,1569.5,False
+RES-00400,Us-East-1,Google Cloud,Stopped,Database,2025-02-01,1.12,63.2,817.6,False
+RES-00401,Us-West-2,Azure,Active,Virtual Machine,2025-01-01,0.2,15.0,146.0,False
+RES-00402,Us-West-2,AWS,Active,Database,2024-03-01,3.61,63.9,2635.2999999999997,False
+RES-00403,Ap-South-1,AWS,Stopped,Network,2024-06-01,1.4,50.7,1021.9999999999999,False
+RES-00404,Us-East-1,Azure,Running,Database,2024-08-01,1.46,23.7,1065.8,False
+RES-00405,Us-West-2,Azure,Running,Virtual Machine,2024-12-01,1.55,5.7,1131.5,True
+RES-00406,Us-West-2,Azure,Running,Database,2025-01-01,2.08,42.5,1518.4,False
+RES-00407,Eu-West-1,Google Cloud,Stopped,Virtual Machine,2024-11-01,2.12,28.7,1547.6000000000001,False
+RES-00408,Us-West-2,Google Cloud,Running,Network,2024-12-01,1.21,3.5,883.3,False
+RES-00409,Us-West-2,AWS,Stopped,Storage,2024-01-01,1.39,65.2,1014.6999999999999,False
+RES-00410,Eu-West-1,Azure,Stopped,Virtual Machine,2025-05-01,0.9,24.8,657.0,False
+RES-00411,Ap-South-1,AWS,Deleted,Database,2025-04-01,0.82,63.2,598.5999999999999,False
+RES-00412,Us-West-2,AWS,Terminated,Virtual Machine,2024-11-01,0.82,43.9,598.5999999999999,False
+RES-00413,Eu-West-1,AWS,Stopped,Network,2025-01-01,1.38,64.5,1007.4,False
+RES-00414,Us-East-1,AWS,Active,Network,2025-06-01,0.68,1.0,496.40000000000003,False
+RES-00415,Ap-South-1,Azure,Active,Storage,2024-11-01,0.02,35.5,14.6,False
+RES-00416,Us-East-1,AWS,Active,Virtual Machine,2024-12-01,1.11,78.7,810.3000000000001,False
+RES-00417,Us-East-1,Azure,Running,Storage,2024-06-01,0.47,14.4,343.09999999999997,False
+RES-00418,Eu-West-1,Azure,Stopped,Virtual Machine,2024-09-01,1.63,35.3,1189.8999999999999,False
+RES-00419,Us-West-2,Google Cloud,Running,Virtual Machine,2025-04-01,0.9,8.5,657.0,False
+RES-00420,Eu-West-1,Azure,Stopped,Database,2024-04-01,2.09,75.6,1525.6999999999998,False
+RES-00421,Eu-West-1,Google Cloud,Active,Virtual Machine,2024-03-01,0.52,24.2,379.6,False
+RES-00422,Eu-West-1,Azure,Stopped,Virtual Machine,2025-04-01,0.25,36.3,182.5,False
+RES-00423,Eu-West-1,Azure,Active,Network,2025-12-01,1.39,31.5,1014.6999999999999,False
+RES-00424,Ap-South-1,Azure,Stopped,Virtual Machine,2024-12-01,1.07,48.8,781.1,False
+RES-00425,Us-West-2,Google Cloud,Active,Virtual Machine,2024-11-01,0.43,17.7,313.9,False
+RES-00426,Us-East-1,Google Cloud,Deleted,Network,2024-05-01,2.59,34.3,1890.6999999999998,False
+RES-00427,Us-East-1,AWS,Active,Virtual Machine,2025-06-01,0.61,30.5,445.3,False
+RES-00428,Us-West-2,Google Cloud,Error,Database,2025-07-01,0.78,4.8,569.4,False
+RES-00429,Us-East-1,Google Cloud,Stopped,Network,2025-11-01,2.94,2.5,2146.2,True
+RES-00430,Us-West-2,Google Cloud,Deleted,Network,2025-11-01,2.18,39.6,1591.4,False
+RES-00431,Us-East-1,Google Cloud,Running,Storage,2024-06-01,0.55,3.3,401.50000000000006,False
+RES-00432,Eu-West-1,AWS,Running,Virtual Machine,2025-10-01,1.15,26.5,839.4999999999999,False
+RES-00433,Us-East-1,Google Cloud,Deleted,Virtual Machine,2025-06-01,0.49,12.6,357.7,False
+RES-00434,Us-West-2,Azure,Stopped,Database,2024-06-01,2.8,35.9,2043.9999999999998,False
+RES-00435,Us-West-2,Azure,Running,Database,2024-04-01,2.8,49.6,2043.9999999999998,False
+RES-00436,Us-West-2,Google Cloud,Stopped,Storage,2024-12-01,4.79,49.2,3496.7,False
+RES-00437,Us-West-2,Google Cloud,Running,Virtual Machine,2025-07-01,6.02,42.7,4394.599999999999,False
+RES-00438,Us-West-2,Azure,Active,Virtual Machine,2024-02-01,0.89,37.5,649.7,False
+RES-00439,Ap-South-1,Azure,Stopped,Virtual Machine,2025-05-01,2.49,53.8,1817.7,False
+RES-00440,Ap-South-1,AWS,Running,Database,2024-11-01,0.2,38.0,146.0,False
+RES-00441,Us-East-1,Azure,Running,Virtual Machine,2024-11-01,1.73,20.0,1262.9,False
+RES-00442,Us-West-2,Azure,Deleted,Network,2025-09-01,2.05,3.3,1496.4999999999998,True
+RES-00443,Us-East-1,Google Cloud,Running,Database,2025-04-01,0.64,61.6,467.2,False
+RES-00444,Us-West-2,Azure,Error,Virtual Machine,2024-02-01,0.84,77.0,613.1999999999999,False
+RES-00445,Us-West-2,AWS,Active,Storage,2024-02-01,2.81,21.4,2051.3,False
+RES-00446,Ap-South-1,Azure,Stopped,Virtual Machine,2025-11-01,2.09,22.4,1525.6999999999998,False
+RES-00447,Ap-South-1,Google Cloud,Stopped,Storage,2024-08-01,4.39,34.5,3204.7,False
+RES-00448,Eu-West-1,Google Cloud,Stopped,Database,2025-01-01,4.06,100.0,2963.7999999999997,False
+RES-00449,Ap-South-1,Azure,Deleted,Database,2024-10-01,1.55,22.7,1131.5,False
+RES-00450,Eu-West-1,Google Cloud,Active,Database,2024-08-01,0.97,67.1,708.1,False
+RES-00451,Eu-West-1,AWS,Deleted,Virtual Machine,2024-04-01,0.58,50.0,423.4,False
+RES-00452,Eu-West-1,AWS,Stopped,Virtual Machine,2025-03-01,2.56,29.4,1868.8,False
+RES-00453,Eu-West-1,Azure,Running,Database,2024-01-01,1.85,45.2,1350.5,False
+RES-00454,Eu-West-1,Azure,Running,Virtual Machine,2024-11-01,0.62,43.6,452.6,False
+RES-00455,Us-East-1,Azure,Stopped,Virtual Machine,2024-07-01,0.72,36.7,525.6,False
+RES-00456,Ap-South-1,Google Cloud,Stopped,Virtual Machine,2025-05-01,3.47,56.9,2533.1000000000004,False
+RES-00457,Eu-West-1,AWS,Stopped,Storage,2025-08-01,1.06,10.1,773.8000000000001,False
+RES-00458,Us-West-2,AWS,Active,Virtual Machine,2025-12-01,0.16,50.2,116.8,False
+RES-00459,Ap-South-1,Google Cloud,Stopped,Storage,2025-06-01,0.57,21.0,416.09999999999997,False
+RES-00460,Ap-South-1,AWS,Active,Network,2025-10-01,5.0,29.1,3650.0,False
+RES-00461,Eu-West-1,Azure,Stopped,Virtual Machine,2025-10-01,3.0,55.0,2190.0,False
+RES-00462,Us-East-1,Azure,Running,Virtual Machine,2024-12-01,0.46,28.2,335.8,False
+RES-00463,Eu-West-1,Azure,Running,Virtual Machine,2024-09-01,1.73,20.7,1262.9,False
+RES-00464,Us-East-1,AWS,Running,Database,2024-05-01,2.87,16.2,2095.1,False
+RES-00465,Us-West-2,Azure,Active,Virtual Machine,2024-10-01,0.28,36.9,204.4,False
+RES-00466,Ap-South-1,Google Cloud,Running,Virtual Machine,2024-04-01,3.1,14.4,2263.0,True
+RES-00467,Us-West-2,Google Cloud,Stopped,Virtual Machine,2024-05-01,2.07,39.0,1511.1,False
+RES-00468,Us-East-1,AWS,Stopped,Database,2024-10-01,0.8,51.7,584.0,False
+RES-00469,Us-East-1,Google Cloud,Deleted,Virtual Machine,2024-11-01,2.32,11.5,1693.6,True
+RES-00470,Us-West-2,Google Cloud,Active,Database,2025-09-01,1.87,20.4,1365.1000000000001,False
+RES-00471,Us-East-1,AWS,Running,Network,2025-12-01,1.97,54.2,1438.1,False
+RES-00472,Us-West-2,Azure,Running,Virtual Machine,2024-10-01,1.68,21.5,1226.3999999999999,False
+RES-00473,Ap-South-1,Azure,Stopped,Database,2024-08-01,0.69,13.1,503.7,False
+RES-00474,Us-West-2,Azure,Active,Virtual Machine,2024-02-01,0.82,23.3,598.5999999999999,False
+RES-00475,Ap-South-1,AWS,Active,Database,2025-11-01,1.24,52.5,905.2,False
+RES-00476,Us-West-2,Google Cloud,Terminated,Storage,2024-08-01,1.55,28.4,1131.5,False
+RES-00477,Us-East-1,Azure,Stopped,Database,2025-04-01,2.41,16.3,1759.3000000000002,False
+RES-00478,Us-West-2,Azure,Stopped,Virtual Machine,2025-10-01,5.07,49.7,3701.1000000000004,False
+RES-00479,Us-East-1,AWS,Stopped,Virtual Machine,2024-05-01,1.79,64.0,1306.7,False
+RES-00480,Us-West-2,Azure,Running,Virtual Machine,2024-03-01,2.38,32.9,1737.3999999999999,False
+RES-00481,Us-West-2,AWS,Active,Virtual Machine,2024-12-01,2.77,13.6,2022.1,True
+RES-00482,Eu-West-1,Google Cloud,Stopped,Virtual Machine,2025-01-01,2.5,42.7,1825.0,False
+RES-00483,Us-East-1,AWS,Running,Virtual Machine,2025-01-01,0.67,27.0,489.1,False
+RES-00484,Eu-West-1,AWS,Terminated,Virtual Machine,2024-10-01,3.69,17.2,2693.7,False
+RES-00485,Us-East-1,AWS,Active,Virtual Machine,2024-04-01,3.31,11.1,2416.3,True
+RES-00486,Eu-West-1,AWS,Stopped,Database,2024-09-01,1.66,23.2,1211.8,False
+RES-00487,Ap-South-1,Google Cloud,Stopped,Storage,2025-10-01,0.71,48.8,518.3,False
+RES-00488,Us-West-2,Google Cloud,Running,Virtual Machine,2025-12-01,1.54,31.4,1124.2,False
+RES-00489,Us-East-1,Azure,Stopped,Virtual Machine,2025-11-01,0.32,55.4,233.6,False
+RES-00490,Us-East-1,Google Cloud,Running,Virtual Machine,2024-02-01,4.01,62.4,2927.2999999999997,False
+RES-00491,Us-West-2,Google Cloud,Deleted,Network,2025-07-01,0.88,12.9,642.4,False
+RES-00492,Us-East-1,Azure,Running,Virtual Machine,2024-01-01,1.19,11.0,868.6999999999999,False
+RES-00493,Us-East-1,Google Cloud,Stopped,Database,2024-07-01,3.83,11.3,2795.9,True
+RES-00494,Eu-West-1,AWS,Terminated,Network,2025-05-01,3.53,21.5,2576.8999999999996,False
+RES-00495,Us-East-1,AWS,Running,Database,2024-03-01,1.93,54.7,1408.8999999999999,False
+RES-00496,Ap-South-1,Azure,Running,Storage,2025-08-01,4.41,75.5,3219.3,False
+RES-00497,Ap-South-1,Azure,Active,Database,2025-08-01,0.65,43.9,474.5,False
+RES-00498,Us-West-2,Azure,Error,Network,2025-09-01,1.93,17.2,1408.8999999999999,False
+RES-00499,Us-East-1,AWS,Active,Storage,2024-03-01,0.65,50.4,474.5,False
+RES-00500,Us-West-2,Google Cloud,Active,Storage,2024-03-01,3.18,43.7,2321.4,False
+RES-00501,Ap-South-1,AWS,Active,Storage,2025-05-01,3.1,56.4,2263.0,False
+RES-00502,Us-East-1,Azure,Running,Storage,2024-07-01,4.62,34.2,3372.6,False
+RES-00503,Us-East-1,Google Cloud,Active,Storage,2025-02-01,1.5,2.1,1095.0,False
+RES-00504,Us-West-2,Google Cloud,Active,Virtual Machine,2025-05-01,5.46,5.4,3985.8,True
+RES-00505,Ap-South-1,AWS,Active,Virtual Machine,2025-06-01,0.6,19.9,438.0,False
+RES-00506,Us-East-1,Azure,Active,Virtual Machine,2025-01-01,1.44,16.1,1051.2,False
+RES-00507,Us-West-2,AWS,Running,Virtual Machine,2025-08-01,0.62,42.3,452.6,False
+RES-00508,Ap-South-1,Google Cloud,Running,Virtual Machine,2025-08-01,1.74,9.9,1270.2,True
+RES-00509,Us-West-2,AWS,Stopped,Virtual Machine,2025-09-01,0.68,54.7,496.40000000000003,False
+RES-00510,Eu-West-1,AWS,Stopped,Storage,2025-06-01,3.18,32.6,2321.4,False
+RES-00511,Us-East-1,Azure,Running,Virtual Machine,2024-04-01,2.12,21.8,1547.6000000000001,False
+RES-00512,Eu-West-1,Azure,Active,Database,2024-01-01,0.56,40.6,408.8,False
+RES-00513,Ap-South-1,Google Cloud,Stopped,Virtual Machine,2025-06-01,2.69,44.6,1963.7,False
+RES-00514,Eu-West-1,AWS,Error,Virtual Machine,2024-01-01,4.21,49.1,3073.3,False
+RES-00515,Eu-West-1,AWS,Running,Database,2025-01-01,2.27,41.2,1657.1,False
+RES-00516,Ap-South-1,AWS,Active,Storage,2025-08-01,0.41,43.3,299.29999999999995,False
+RES-00517,Us-West-2,Google Cloud,Running,Virtual Machine,2025-08-01,1.33,10.3,970.9000000000001,False
+RES-00518,Eu-West-1,Google Cloud,Stopped,Database,2025-11-01,2.48,39.7,1810.4,False
+RES-00519,Us-West-2,Azure,Running,Database,2024-10-01,1.24,33.8,905.2,False
+RES-00520,Eu-West-1,Azure,Active,Virtual Machine,2024-11-01,0.6,52.9,438.0,False
+RES-00521,Us-West-2,Azure,Active,Virtual Machine,2024-09-01,3.43,25.1,2503.9,False
+RES-00522,Ap-South-1,AWS,Active,Network,2024-09-01,1.19,53.8,868.6999999999999,False
+RES-00523,Eu-West-1,AWS,Terminated,Storage,2024-05-01,4.21,43.5,3073.3,False
+RES-00524,Ap-South-1,Azure,Running,Storage,2024-01-01,0.97,35.0,708.1,False
+RES-00525,Eu-West-1,AWS,Active,Database,2025-05-01,1.14,10.5,832.1999999999999,False
+RES-00526,Ap-South-1,Azure,Active,Virtual Machine,2025-10-01,0.91,16.0,664.3000000000001,False
+RES-00527,Ap-South-1,Google Cloud,Running,Virtual Machine,2024-02-01,1.32,46.4,963.6,False
+RES-00528,Eu-West-1,Azure,Active,Virtual Machine,2025-12-01,2.1,39.0,1533.0,False
+RES-00529,Eu-West-1,Google Cloud,Active,Database,2025-01-01,0.63,22.1,459.9,False
+RES-00530,Eu-West-1,AWS,Error,Storage,2024-09-01,0.52,3.5,379.6,False
+RES-00531,Us-East-1,Azure,Active,Storage,2024-04-01,0.27,12.1,197.10000000000002,False
+RES-00532,Us-West-2,AWS,Running,Virtual Machine,2024-05-01,0.23,42.4,167.9,False
+RES-00533,Us-East-1,Google Cloud,Error,Virtual Machine,2024-11-01,0.41,14.1,299.29999999999995,False
+RES-00534,Us-East-1,Google Cloud,Stopped,Storage,2025-12-01,0.97,67.6,708.1,False
+RES-00535,Ap-South-1,Google Cloud,Active,Database,2025-07-01,1.72,85.7,1255.6,False
+RES-00536,Eu-West-1,AWS,Active,Storage,2025-09-01,2.02,26.2,1474.6,False
+RES-00537,Us-West-2,AWS,Deleted,Virtual Machine,2024-03-01,1.66,51.0,1211.8,False
+RES-00538,Ap-South-1,AWS,Terminated,Database,2024-12-01,3.9,39.8,2847.0,False
+RES-00539,Us-East-1,AWS,Deleted,Virtual Machine,2025-07-01,4.73,50.5,3452.9,False
+RES-00540,Eu-West-1,Google Cloud,Active,Network,2025-07-01,1.2,75.7,876.0,False
+RES-00541,Ap-South-1,Google Cloud,Deleted,Virtual Machine,2025-01-01,0.64,32.7,467.2,False
+RES-00542,Eu-West-1,Azure,Terminated,Storage,2024-07-01,5.68,100.0,4146.4,False
+RES-00543,Ap-South-1,Azure,Running,Virtual Machine,2025-03-01,3.35,42.4,2445.5,False
+RES-00544,Eu-West-1,AWS,Terminated,Network,2025-11-01,3.19,62.4,2328.7,False
+RES-00545,Us-East-1,Google Cloud,Deleted,Storage,2024-07-01,0.94,4.3,686.1999999999999,False
+RES-00546,Us-West-2,Google Cloud,Running,Virtual Machine,2024-08-01,2.74,72.9,2000.2,False
+RES-00547,Us-East-1,Google Cloud,Running,Virtual Machine,2024-05-01,1.67,79.0,1219.1,False
+RES-00548,Us-West-2,Azure,Stopped,Virtual Machine,2025-09-01,1.42,51.7,1036.6,False
+RES-00549,Eu-West-1,Azure,Active,Virtual Machine,2025-02-01,1.41,6.8,1029.3,False
+RES-00550,Ap-South-1,Google Cloud,Running,Network,2024-04-01,2.17,32.0,1584.1,False
+RES-00551,Us-East-1,Google Cloud,Stopped,Virtual Machine,2025-11-01,3.98,14.7,2905.4,True
+RES-00552,Us-West-2,Google Cloud,Terminated,Database,2024-10-01,5.99,47.7,4372.7,False
+RES-00553,Us-East-1,Azure,Error,Storage,2025-08-01,1.08,11.6,788.4000000000001,False
+RES-00554,Us-West-2,Google Cloud,Deleted,Storage,2025-03-01,1.74,62.4,1270.2,False
+RES-00555,Us-East-1,Google Cloud,Active,Virtual Machine,2025-06-01,1.39,26.7,1014.6999999999999,False
+RES-00556,Us-West-2,AWS,Active,Virtual Machine,2025-08-01,2.07,24.3,1511.1,False
+RES-00557,Us-West-2,AWS,Active,Database,2025-01-01,1.26,20.9,919.8,False
+RES-00558,Eu-West-1,Azure,Running,Network,2024-08-01,0.84,20.4,613.1999999999999,False
+RES-00559,Us-West-2,Google Cloud,Deleted,Virtual Machine,2024-09-01,1.08,100.0,788.4000000000001,False
+RES-00560,Eu-West-1,Google Cloud,Terminated,Virtual Machine,2025-04-01,0.95,2.8,693.5,False
+RES-00561,Us-West-2,AWS,Stopped,Storage,2025-07-01,1.34,46.0,978.2,False
+RES-00562,Ap-South-1,Azure,Terminated,Network,2025-04-01,0.44,17.3,321.2,False
+RES-00563,Ap-South-1,AWS,Terminated,Virtual Machine,2024-07-01,0.96,50.4,700.8,False
+RES-00564,Ap-South-1,AWS,Stopped,Virtual Machine,2025-02-01,2.05,53.5,1496.4999999999998,False
+RES-00565,Us-West-2,AWS,Terminated,Database,2025-02-01,2.04,53.3,1489.2,False
+RES-00566,Eu-West-1,AWS,Stopped,Virtual Machine,2024-04-01,1.81,41.6,1321.3,False
+RES-00567,Eu-West-1,Google Cloud,Active,Virtual Machine,2025-03-01,3.75,39.0,2737.5,False
+RES-00568,Us-West-2,Google Cloud,Running,Storage,2024-03-01,2.11,61.8,1540.3,False
+RES-00569,Ap-South-1,AWS,Stopped,Network,2024-05-01,3.67,41.8,2679.1,False
+RES-00570,Ap-South-1,Azure,Running,Virtual Machine,2024-01-01,5.99,41.1,4372.7,False
+RES-00571,Eu-West-1,Azure,Running,Storage,2024-03-01,2.79,46.7,2036.7,False
+RES-00572,Ap-South-1,Azure,Running,Storage,2025-03-01,0.45,76.6,328.5,False
+RES-00573,Us-East-1,Azure,Stopped,Storage,2025-12-01,1.87,78.7,1365.1000000000001,False
+RES-00574,Eu-West-1,AWS,Running,Storage,2024-08-01,1.67,5.5,1219.1,True
+RES-00575,Ap-South-1,Google Cloud,Running,Storage,2024-04-01,4.21,57.7,3073.3,False
+RES-00576,Eu-West-1,Azure,Running,Virtual Machine,2024-02-01,1.37,11.1,1000.1,False
+RES-00577,Us-East-1,AWS,Stopped,Storage,2025-12-01,0.75,32.8,547.5,False
+RES-00578,Eu-West-1,Azure,Active,Storage,2025-12-01,1.01,11.6,737.3,False
+RES-00579,Eu-West-1,Azure,Running,Storage,2024-10-01,0.46,21.6,335.8,False
+RES-00580,Eu-West-1,AWS,Active,Database,2024-04-01,5.37,5.9,3920.1,True
+RES-00581,Eu-West-1,Google Cloud,Running,Virtual Machine,2024-03-01,1.52,53.8,1109.6,False
+RES-00582,Us-East-1,Google Cloud,Deleted,Database,2024-02-01,0.51,46.4,372.3,False
+RES-00583,Us-West-2,AWS,Stopped,Database,2025-05-01,4.46,81.6,3255.8,False
+RES-00584,Eu-West-1,Google Cloud,Running,Virtual Machine,2025-11-01,4.96,51.3,3620.8,False
+RES-00585,Eu-West-1,AWS,Error,Storage,2025-09-01,1.71,5.8,1248.3,True
+RES-00586,Ap-South-1,AWS,Deleted,Virtual Machine,2025-12-01,0.42,59.4,306.59999999999997,False
+RES-00587,Eu-West-1,AWS,Terminated,Virtual Machine,2025-08-01,1.03,15.5,751.9,False
+RES-00588,Ap-South-1,Google Cloud,Deleted,Virtual Machine,2025-11-01,1.26,36.6,919.8,False
+RES-00589,Us-West-2,AWS,Active,Virtual Machine,2025-01-01,1.56,9.7,1138.8,True
+RES-00590,Us-East-1,Azure,Active,Virtual Machine,2024-05-01,0.57,72.0,416.09999999999997,False
+RES-00591,Us-East-1,Google Cloud,Running,Database,2025-09-01,2.95,15.7,2153.5,False
+RES-00592,Us-West-2,Google Cloud,Active,Virtual Machine,2024-09-01,0.14,18.2,102.2,False
+RES-00593,Us-East-1,Google Cloud,Stopped,Database,2025-10-01,3.28,65.5,2394.3999999999996,False
+RES-00594,Us-West-2,Google Cloud,Stopped,Storage,2024-06-01,3.76,22.2,2744.7999999999997,False
+RES-00595,Us-West-2,Azure,Running,Database,2024-05-01,1.12,31.0,817.6,False
+RES-00596,Us-West-2,Google Cloud,Deleted,Storage,2024-10-01,1.43,43.1,1043.8999999999999,False
+RES-00597,Us-East-1,Google Cloud,Running,Virtual Machine,2024-08-01,4.07,69.4,2971.1000000000004,False
+RES-00598,Ap-South-1,AWS,Running,Storage,2024-07-01,2.41,15.2,1759.3000000000002,False
+RES-00599,Us-West-2,Google Cloud,Deleted,Virtual Machine,2024-07-01,1.15,9.3,839.4999999999999,False
+RES-00600,Eu-West-1,Azure,Stopped,Storage,2024-06-01,1.27,2.9,927.1,False
+RES-00601,Us-East-1,Azure,Terminated,Network,2025-09-01,2.18,22.0,1591.4,False
+RES-00602,Us-West-2,Azure,Active,Virtual Machine,2025-08-01,5.06,23.6,3693.7999999999997,False
+RES-00603,Us-West-2,Azure,Error,Virtual Machine,2024-03-01,1.3,39.9,949.0,False
+RES-00604,Eu-West-1,Google Cloud,Running,Database,2025-07-01,1.12,44.8,817.6,False
+RES-00605,Ap-South-1,Google Cloud,Stopped,Database,2025-10-01,1.55,27.3,1131.5,False
+RES-00606,Ap-South-1,Azure,Active,Storage,2025-03-01,1.56,41.4,1138.8,False
+RES-00607,Ap-South-1,Azure,Stopped,Virtual Machine,2024-04-01,1.91,41.8,1394.3,False
+RES-00608,Us-West-2,Google Cloud,Active,Storage,2024-12-01,1.43,17.1,1043.8999999999999,False
+RES-00609,Us-West-2,Azure,Active,Virtual Machine,2024-06-01,3.41,16.0,2489.3,False
+RES-00610,Us-West-2,AWS,Running,Database,2025-07-01,0.69,2.7,503.7,False
+RES-00611,Us-East-1,Azure,Running,Network,2024-04-01,2.06,33.5,1503.8,False
+RES-00612,Eu-West-1,Azure,Running,Database,2025-03-01,2.12,35.1,1547.6000000000001,False
+RES-00613,Us-West-2,AWS,Terminated,Database,2024-09-01,0.75,38.1,547.5,False
+RES-00614,Eu-West-1,AWS,Running,Virtual Machine,2024-05-01,2.05,21.3,1496.4999999999998,False
+RES-00615,Eu-West-1,Google Cloud,Running,Database,2025-01-01,2.16,31.8,1576.8000000000002,False
+RES-00616,Ap-South-1,Google Cloud,Active,Database,2025-11-01,1.55,27.5,1131.5,False
+RES-00617,Us-East-1,AWS,Running,Virtual Machine,2025-06-01,0.63,29.2,459.9,False
+RES-00618,Us-West-2,AWS,Stopped,Database,2024-05-01,4.3,23.2,3139.0,False
+RES-00619,Ap-South-1,Google Cloud,Error,Virtual Machine,2025-04-01,0.92,49.6,671.6,False
+RES-00620,Ap-South-1,Azure,Deleted,Storage,2025-07-01,0.51,42.9,372.3,False
+RES-00621,Us-West-2,AWS,Running,Database,2025-02-01,0.22,13.4,160.6,False
+RES-00622,Eu-West-1,Google Cloud,Active,Storage,2025-04-01,0.58,9.7,423.4,False
+RES-00623,Ap-South-1,Azure,Deleted,Virtual Machine,2025-03-01,1.38,16.1,1007.4,False
+RES-00624,Eu-West-1,AWS,Deleted,Storage,2025-10-01,0.47,18.1,343.09999999999997,False
+RES-00625,Us-East-1,Azure,Active,Storage,2024-04-01,2.44,24.9,1781.2,False
+RES-00626,Eu-West-1,Google Cloud,Active,Network,2024-07-01,0.74,2.7,540.2,False
+RES-00627,Us-East-1,AWS,Deleted,Virtual Machine,2025-04-01,1.92,19.8,1401.6,False
+RES-00628,Eu-West-1,Azure,Active,Virtual Machine,2025-12-01,3.9,25.0,2847.0,False
+RES-00629,Ap-South-1,AWS,Terminated,Database,2025-10-01,3.74,29.7,2730.2000000000003,False
+RES-00630,Ap-South-1,Azure,Stopped,Virtual Machine,2025-09-01,1.89,42.8,1379.6999999999998,False
+RES-00631,Us-East-1,Google Cloud,Active,Storage,2025-10-01,0.54,10.2,394.20000000000005,False
+RES-00632,Us-West-2,Google Cloud,Deleted,Storage,2025-09-01,1.46,22.0,1065.8,False
+RES-00633,Us-East-1,AWS,Stopped,Database,2024-08-01,1.94,10.2,1416.2,True
+RES-00634,Us-East-1,Azure,Running,Storage,2025-05-01,6.72,41.6,4905.599999999999,False
+RES-00635,Eu-West-1,AWS,Active,Storage,2025-04-01,0.22,12.9,160.6,False
+RES-00636,Eu-West-1,AWS,Active,Virtual Machine,2025-11-01,1.46,27.9,1065.8,False
+RES-00637,Us-East-1,Azure,Running,Virtual Machine,2024-10-01,2.37,20.5,1730.1000000000001,False
+RES-00638,Ap-South-1,Azure,Stopped,Virtual Machine,2024-10-01,1.65,44.9,1204.5,False
+RES-00639,Eu-West-1,Azure,Running,Virtual Machine,2024-02-01,1.79,9.1,1306.7,True
+RES-00640,Us-West-2,Google Cloud,Deleted,Storage,2024-09-01,0.78,5.9,569.4,False
+RES-00641,Eu-West-1,AWS,Running,Database,2025-05-01,2.91,25.2,2124.3,False
+RES-00642,Eu-West-1,AWS,Active,Storage,2024-11-01,1.56,16.8,1138.8,False
+RES-00643,Us-West-2,Google Cloud,Stopped,Database,2024-10-01,1.78,39.5,1299.4,False
+RES-00644,Us-East-1,Azure,Terminated,Network,2025-10-01,3.13,59.4,2284.9,False
+RES-00645,Us-West-2,Google Cloud,Deleted,Database,2025-05-01,1.18,31.4,861.4,False
+RES-00646,Us-East-1,Google Cloud,Running,Storage,2024-04-01,3.6,30.6,2628.0,False
+RES-00647,Us-East-1,Google Cloud,Active,Storage,2025-04-01,0.46,3.8,335.8,False
+RES-00648,Us-East-1,AWS,Stopped,Virtual Machine,2025-08-01,1.86,68.9,1357.8000000000002,False
+RES-00649,Us-West-2,Google Cloud,Running,Virtual Machine,2025-03-01,0.74,22.1,540.2,False
+RES-00650,Us-East-1,AWS,Deleted,Virtual Machine,2025-09-01,0.57,40.0,416.09999999999997,False
+RES-00651,Ap-South-1,AWS,Running,Network,2024-05-01,5.02,8.5,3664.6,True
+RES-00652,Us-West-2,AWS,Deleted,Database,2024-06-01,0.48,5.4,350.4,False
+RES-00653,Ap-South-1,Azure,Deleted,Virtual Machine,2025-05-01,1.58,23.9,1153.4,False
+RES-00654,Us-East-1,AWS,Active,Storage,2024-01-01,0.44,16.6,321.2,False
+RES-00655,Eu-West-1,AWS,Stopped,Database,2025-07-01,3.45,16.1,2518.5,False
+RES-00656,Us-East-1,Azure,Active,Virtual Machine,2024-04-01,1.09,26.0,795.7,False
+RES-00657,Ap-South-1,AWS,Active,Virtual Machine,2025-05-01,3.12,61.3,2277.6,False
+RES-00658,Ap-South-1,Google Cloud,Terminated,Database,2024-09-01,2.32,22.6,1693.6,False
+RES-00659,Us-West-2,Google Cloud,Stopped,Virtual Machine,2025-12-01,6.08,58.1,4438.4,False
+RES-00660,Eu-West-1,AWS,Running,Virtual Machine,2024-02-01,0.35,70.6,255.49999999999997,False
+RES-00661,Us-West-2,Azure,Active,Storage,2024-08-01,0.63,21.3,459.9,False
+RES-00662,Ap-South-1,Google Cloud,Stopped,Database,2025-03-01,3.0,21.3,2190.0,False
+RES-00663,Us-East-1,Azure,Active,Storage,2024-07-01,1.93,14.8,1408.8999999999999,True
+RES-00664,Eu-West-1,Azure,Active,Virtual Machine,2024-06-01,1.25,25.9,912.5,False
+RES-00665,Us-East-1,Google Cloud,Running,Virtual Machine,2024-01-01,5.36,46.0,3912.8,False
+RES-00666,Us-East-1,Azure,Active,Storage,2025-03-01,1.5,22.4,1095.0,False
+RES-00667,Eu-West-1,Google Cloud,Running,Storage,2025-11-01,0.76,45.7,554.8,False
+RES-00668,Us-West-2,Azure,Active,Database,2024-07-01,3.14,51.2,2292.2000000000003,False
+RES-00669,Us-East-1,Google Cloud,Active,Virtual Machine,2025-05-01,1.54,22.1,1124.2,False
+RES-00670,Ap-South-1,AWS,Active,Database,2024-02-01,1.63,46.2,1189.8999999999999,False
+RES-00671,Us-East-1,Google Cloud,Running,Virtual Machine,2024-09-01,2.46,21.6,1795.8,False
+RES-00672,Eu-West-1,Google Cloud,Running,Virtual Machine,2024-09-01,2.53,67.0,1846.8999999999999,False
+RES-00673,Eu-West-1,Google Cloud,Stopped,Virtual Machine,2025-01-01,0.62,47.8,452.6,False
+RES-00674,Eu-West-1,Google Cloud,Stopped,Virtual Machine,2024-06-01,1.19,75.6,868.6999999999999,False
+RES-00675,Us-West-2,Azure,Running,Storage,2024-06-01,0.4,49.1,292.0,False
+RES-00676,Us-East-1,AWS,Active,Storage,2025-08-01,1.95,12.3,1423.5,True
+RES-00677,Us-West-2,Google Cloud,Stopped,Virtual Machine,2025-08-01,4.96,83.1,3620.8,False
+RES-00678,Us-West-2,Azure,Deleted,Storage,2025-09-01,0.65,50.2,474.5,False
+RES-00679,Eu-West-1,AWS,Running,Virtual Machine,2024-03-01,0.33,51.9,240.9,False
+RES-00680,Eu-West-1,AWS,Stopped,Database,2025-05-01,0.88,18.6,642.4,False
+RES-00681,Us-West-2,AWS,Terminated,Network,2025-05-01,1.24,11.6,905.2,False
+RES-00682,Us-East-1,AWS,Deleted,Virtual Machine,2024-12-01,2.54,37.4,1854.2,False
+RES-00683,Ap-South-1,Google Cloud,Active,Storage,2025-04-01,1.14,3.6,832.1999999999999,False
+RES-00684,Us-West-2,Google Cloud,Running,Virtual Machine,2025-03-01,1.97,39.2,1438.1,False
+RES-00685,Us-East-1,Azure,Running,Virtual Machine,2025-01-01,0.99,18.2,722.7,False
+RES-00686,Eu-West-1,Azure,Stopped,Virtual Machine,2025-11-01,1.3,34.5,949.0,False
+RES-00687,Eu-West-1,Azure,Stopped,Database,2024-01-01,0.74,30.1,540.2,False
+RES-00688,Us-East-1,AWS,Stopped,Storage,2025-05-01,0.54,33.0,394.20000000000005,False
+RES-00689,Ap-South-1,AWS,Running,Virtual Machine,2024-03-01,2.61,100.0,1905.3,False
+RES-00690,Eu-West-1,Google Cloud,Stopped,Database,2025-03-01,1.05,41.8,766.5,False
+RES-00691,Eu-West-1,AWS,Deleted,Storage,2024-04-01,2.08,62.3,1518.4,False
+RES-00692,Eu-West-1,AWS,Running,Database,2024-04-01,0.73,8.6,532.9,False
+RES-00693,Us-East-1,AWS,Active,Storage,2025-06-01,1.51,47.6,1102.3,False
+RES-00694,Us-West-2,Azure,Running,Storage,2025-05-01,0.15,1.2,109.5,False
+RES-00695,Eu-West-1,Azure,Active,Virtual Machine,2025-07-01,1.12,28.9,817.6,False
+RES-00696,Us-West-2,Google Cloud,Running,Virtual Machine,2024-11-01,0.8,38.7,584.0,False
+RES-00697,Ap-South-1,AWS,Running,Network,2025-08-01,3.36,14.0,2452.7999999999997,True
+RES-00698,Eu-West-1,AWS,Active,Virtual Machine,2024-03-01,0.46,22.0,335.8,False
+RES-00699,Eu-West-1,Google Cloud,Stopped,Network,2024-08-01,1.34,54.5,978.2,False
+RES-00700,Ap-South-1,AWS,Active,Storage,2025-02-01,1.93,58.6,1408.8999999999999,False
+RES-00701,Eu-West-1,AWS,Active,Virtual Machine,2024-01-01,3.04,17.0,2219.2,False
+RES-00702,Us-West-2,Azure,Stopped,Virtual Machine,2025-02-01,2.76,7.3,2014.8,True
+RES-00703,Us-East-1,Google Cloud,Stopped,Virtual Machine,2024-02-01,1.43,18.8,1043.8999999999999,False
+RES-00704,Us-West-2,Google Cloud,Error,Network,2025-11-01,1.59,41.5,1160.7,False
+RES-00705,Us-East-1,Google Cloud,Stopped,Virtual Machine,2024-04-01,3.35,30.7,2445.5,False
+RES-00706,Us-East-1,Google Cloud,Stopped,Virtual Machine,2025-12-01,1.4,24.3,1021.9999999999999,False
+RES-00707,Us-West-2,Azure,Running,Virtual Machine,2025-07-01,1.72,13.9,1255.6,True
+RES-00708,Us-West-2,Azure,Active,Virtual Machine,2024-06-01,3.43,14.8,2503.9,True
+RES-00709,Us-West-2,AWS,Error,Storage,2024-01-01,6.64,41.5,4847.2,False
+RES-00710,Us-West-2,AWS,Running,Virtual Machine,2025-05-01,1.83,24.6,1335.9,False
+RES-00711,Ap-South-1,AWS,Deleted,Database,2024-08-01,2.21,29.3,1613.3,False
+RES-00712,Eu-West-1,AWS,Active,Virtual Machine,2025-07-01,2.7,37.8,1971.0000000000002,False
+RES-00713,Us-East-1,Azure,Stopped,Virtual Machine,2025-09-01,3.41,33.2,2489.3,False
+RES-00714,Us-West-2,Google Cloud,Stopped,Storage,2024-01-01,3.09,4.7,2255.7,True
+RES-00715,Us-West-2,Azure,Deleted,Virtual Machine,2024-05-01,0.93,20.8,678.9000000000001,False
+RES-00716,Us-West-2,AWS,Active,Network,2025-04-01,1.92,55.7,1401.6,False
+RES-00717,Ap-South-1,Azure,Stopped,Storage,2024-06-01,3.11,34.7,2270.2999999999997,False
+RES-00718,Us-West-2,Google Cloud,Error,Virtual Machine,2024-08-01,3.9,55.5,2847.0,False
+RES-00719,Us-West-2,Google Cloud,Stopped,Storage,2025-01-01,1.34,18.7,978.2,False
+RES-00720,Us-West-2,Azure,Stopped,Virtual Machine,2025-04-01,1.89,60.2,1379.6999999999998,False
+RES-00721,Eu-West-1,Azure,Active,Virtual Machine,2024-03-01,2.05,20.9,1496.4999999999998,False
+RES-00722,Ap-South-1,Azure,Error,Network,2025-07-01,1.55,100.0,1131.5,False
+RES-00723,Us-West-2,AWS,Active,Database,2024-12-01,1.85,46.2,1350.5,False
+RES-00724,Us-East-1,Azure,Running,Network,2025-04-01,9.3,27.6,6789.000000000001,False
+RES-00725,Us-East-1,Azure,Deleted,Storage,2024-11-01,1.3,1.5,949.0,False
+RES-00726,Us-East-1,Azure,Active,Storage,2024-10-01,1.38,65.7,1007.4,False
+RES-00727,Ap-South-1,Google Cloud,Running,Virtual Machine,2025-08-01,0.29,41.7,211.7,False
+RES-00728,Ap-South-1,Google Cloud,Active,Virtual Machine,2024-04-01,0.23,30.5,167.9,False
+RES-00729,Us-East-1,AWS,Active,Database,2024-12-01,2.15,36.3,1569.5,False
+RES-00730,Us-West-2,AWS,Deleted,Virtual Machine,2025-11-01,3.12,5.6,2277.6,True
+RES-00731,Ap-South-1,Google Cloud,Terminated,Database,2024-02-01,2.73,14.6,1992.9,True
+RES-00732,Us-East-1,Google Cloud,Running,Database,2025-12-01,0.73,61.3,532.9,False
+RES-00733,Us-East-1,Google Cloud,Stopped,Virtual Machine,2025-10-01,2.62,68.4,1912.6000000000001,False
+RES-00734,Us-West-2,Azure,Active,Storage,2025-07-01,1.36,11.8,992.8000000000001,False
+RES-00735,Eu-West-1,Azure,Active,Storage,2024-05-01,1.11,38.3,810.3000000000001,False
+RES-00736,Ap-South-1,Google Cloud,Active,Virtual Machine,2024-08-01,0.42,34.0,306.59999999999997,False
+RES-00737,Us-West-2,Azure,Active,Database,2024-07-01,0.81,51.4,591.3000000000001,False
+RES-00738,Us-East-1,Azure,Stopped,Storage,2025-02-01,2.19,23.1,1598.7,False
+RES-00739,Us-East-1,AWS,Stopped,Virtual Machine,2025-12-01,1.91,50.6,1394.3,False
+RES-00740,Us-West-2,Google Cloud,Stopped,Storage,2025-11-01,1.7,54.6,1241.0,False
+RES-00741,Ap-South-1,Google Cloud,Active,Network,2024-03-01,0.13,34.6,94.9,False
+RES-00742,Eu-West-1,Azure,Stopped,Virtual Machine,2025-06-01,1.72,54.3,1255.6,False
+RES-00743,Eu-West-1,Google Cloud,Deleted,Database,2025-04-01,0.92,15.6,671.6,False
+RES-00744,Us-East-1,AWS,Active,Virtual Machine,2025-11-01,1.92,56.6,1401.6,False
+RES-00745,Ap-South-1,AWS,Terminated,Database,2025-07-01,3.48,7.9,2540.4,True
+RES-00746,Eu-West-1,AWS,Terminated,Database,2025-07-01,1.04,56.2,759.2,False
+RES-00747,Ap-South-1,Google Cloud,Active,Virtual Machine,2025-06-01,1.62,55.7,1182.6000000000001,False
+RES-00748,Ap-South-1,Google Cloud,Deleted,Virtual Machine,2025-08-01,5.34,41.0,3898.2,False
+RES-00749,Us-East-1,Google Cloud,Running,Database,2025-04-01,1.85,28.7,1350.5,False
+RES-00750,Eu-West-1,Google Cloud,Running,Storage,2024-08-01,1.47,19.9,1073.1,False
+RES-00751,Us-West-2,Google Cloud,Stopped,Database,2024-01-01,0.74,48.4,540.2,False
+RES-00752,Us-East-1,AWS,Stopped,Virtual Machine,2025-05-01,2.67,4.5,1949.1,True
+RES-00753,Eu-West-1,Azure,Stopped,Database,2024-12-01,0.63,19.0,459.9,False
+RES-00754,Eu-West-1,AWS,Running,Database,2025-09-01,3.58,46.5,2613.4,False
+RES-00755,Eu-West-1,Google Cloud,Running,Network,2024-11-01,2.41,20.2,1759.3000000000002,False
+RES-00756,Eu-West-1,AWS,Running,Virtual Machine,2024-05-01,0.94,24.2,686.1999999999999,False
+RES-00757,Eu-West-1,Google Cloud,Running,Storage,2024-12-01,0.76,37.0,554.8,False
+RES-00758,Ap-South-1,Google Cloud,Running,Storage,2025-05-01,0.78,32.4,569.4,False
+RES-00759,Us-East-1,AWS,Active,Virtual Machine,2024-06-01,0.24,7.5,175.2,False
+RES-00760,Ap-South-1,Google Cloud,Active,Storage,2024-01-01,2.12,26.0,1547.6000000000001,False
+RES-00761,Us-West-2,Azure,Deleted,Virtual Machine,2024-05-01,0.15,38.2,109.5,False
+RES-00762,Eu-West-1,Google Cloud,Stopped,Database,2025-02-01,1.4,55.3,1021.9999999999999,False
+RES-00763,Us-East-1,Azure,Active,Storage,2024-05-01,1.33,72.1,970.9000000000001,False
+RES-00764,Eu-West-1,Azure,Active,Virtual Machine,2025-10-01,1.15,44.4,839.4999999999999,False
+RES-00765,Us-East-1,Google Cloud,Active,Storage,2025-12-01,2.11,1.7,1540.3,True
+RES-00766,Ap-South-1,AWS,Error,Storage,2024-01-01,0.95,80.9,693.5,False
+RES-00767,Us-East-1,Azure,Running,Virtual Machine,2025-06-01,1.72,45.5,1255.6,False
+RES-00768,Us-West-2,AWS,Terminated,Network,2025-04-01,3.58,24.5,2613.4,False
+RES-00769,Us-West-2,Azure,Running,Network,2024-09-01,2.29,27.7,1671.7,False
+RES-00770,Us-East-1,Google Cloud,Stopped,Storage,2025-07-01,1.07,42.8,781.1,False
+RES-00771,Us-East-1,Google Cloud,Stopped,Virtual Machine,2025-10-01,1.51,13.7,1102.3,True
+RES-00772,Us-East-1,Azure,Running,Database,2024-05-01,1.15,11.9,839.4999999999999,False
+RES-00773,Us-East-1,Google Cloud,Active,Storage,2024-02-01,1.32,30.8,963.6,False
+RES-00774,Us-West-2,Azure,Terminated,Virtual Machine,2025-03-01,1.76,80.3,1284.8,False
+RES-00775,Eu-West-1,Google Cloud,Deleted,Storage,2024-07-01,0.4,46.7,292.0,False
+RES-00776,Us-East-1,AWS,Stopped,Storage,2024-04-01,0.3,12.3,219.0,False
+RES-00777,Us-East-1,Google Cloud,Error,Storage,2024-01-01,0.68,0.3,496.40000000000003,False
+RES-00778,Us-West-2,AWS,Deleted,Virtual Machine,2025-01-01,2.18,11.3,1591.4,True
+RES-00779,Us-West-2,Google Cloud,Running,Storage,2025-08-01,2.4,38.8,1752.0,False
+RES-00780,Ap-South-1,AWS,Active,Network,2025-10-01,2.65,22.5,1934.5,False
+RES-00781,Us-East-1,Google Cloud,Stopped,Virtual Machine,2024-07-01,0.71,56.1,518.3,False
+RES-00782,Ap-South-1,AWS,Stopped,Database,2025-03-01,1.62,14.3,1182.6000000000001,True
+RES-00783,Us-West-2,Azure,Active,Database,2025-11-01,1.1,29.2,803.0000000000001,False
+RES-00784,Us-West-2,Azure,Active,Storage,2025-02-01,1.36,65.3,992.8000000000001,False
+RES-00785,Eu-West-1,AWS,Deleted,Virtual Machine,2025-11-01,1.08,13.9,788.4000000000001,False
+RES-00786,Us-East-1,Google Cloud,Active,Storage,2025-07-01,1.84,19.6,1343.2,False
+RES-00787,Ap-South-1,AWS,Running,Storage,2025-10-01,0.85,27.3,620.5,False
+RES-00788,Us-West-2,Google Cloud,Terminated,Database,2025-12-01,3.31,35.8,2416.3,False
+RES-00789,Us-West-2,Azure,Terminated,Storage,2025-08-01,3.33,30.8,2430.9,False
+RES-00790,Ap-South-1,Google Cloud,Active,Network,2025-12-01,2.13,5.0,1554.8999999999999,True
+RES-00791,Eu-West-1,Azure,Deleted,Virtual Machine,2025-06-01,3.05,13.3,2226.5,True
+RES-00792,Us-West-2,Google Cloud,Active,Virtual Machine,2024-10-01,0.38,23.9,277.4,False
+RES-00793,Us-East-1,Google Cloud,Active,Storage,2024-09-01,3.45,22.6,2518.5,False
+RES-00794,Us-West-2,Google Cloud,Running,Virtual Machine,2024-08-01,1.99,59.0,1452.7,False
+RES-00795,Us-East-1,AWS,Stopped,Virtual Machine,2024-10-01,0.89,69.8,649.7,False
+RES-00796,Ap-South-1,AWS,Stopped,Virtual Machine,2025-05-01,0.82,59.9,598.5999999999999,False
+RES-00797,Us-East-1,Azure,Running,Virtual Machine,2024-02-01,4.25,12.0,3102.5,True
+RES-00798,Ap-South-1,Azure,Active,Virtual Machine,2024-06-01,2.68,68.0,1956.4,False
+RES-00799,Us-East-1,AWS,Active,Network,2024-05-01,1.33,37.1,970.9000000000001,False
+RES-00800,Ap-South-1,Azure,Stopped,Virtual Machine,2024-09-01,0.38,23.5,277.4,False
